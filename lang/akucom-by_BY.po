@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Community\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-01 02:32+0100\n"
+"PO-Revision-Date: 2009-06-01 02:45+0100\n"
+"Last-Translator: Jordi Canals <jcanals@alkivia.com>\n"
+"Language-Team: Alkivia | http://alkivia.org <gpl@alkivia.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: alkivia.php:52
+#: community.php:494
+#: framework/plugins.php:482
+#: framework/plugins.php:524
+msgid "Warning:"
+msgstr "Увага:"
+
+#: alkivia.php:53
+#, php-format
+msgid "The active plugin %s is not compatible with your PHP version."
+msgstr "Выбраны плагін %s не сумяшчальны з гэтай версіяй PHP."
+
+#: alkivia.php:54
+#, php-format
+msgid "%s is required for this plugin."
+msgstr "%s - абавязкова для плагіна. "
+
+#: community.php:141
+#, php-format
+msgid "Please <a href=\"%s\">Log In</a> to see the content."
+msgstr ""
+
+#: community.php:143
+msgid "Yo have to be registered to access this page."
+msgstr ""
+
+#: community.php:303
+msgid "User Community"
+msgstr "Супольнасць карыстальнікаў"
+
+#: community.php:303
+msgid "Community"
+msgstr "Суполка"
+
+#: community.php:304
+#: settings.php:49
+msgid "General Settings"
+msgstr "Агульныя налады "
+
+#: community.php:304
+msgid "General"
+msgstr "Галоўнае"
+
+#: community.php:317
+#: components/profiles.php:776
+#: components/gallery/gallery.php:291
+#: components/gallery/gallery.php:371
+#: components/gallery/gallery.php:383
+#: components/login/login.php:103
+msgid "What do you think you're doing?!?"
+msgstr "Што вы думаеце пра гэта?"
+
+#: community.php:495
+#, php-format
+msgid "Before start using the plugin %s you have to create and set the page to hold output data."
+msgstr "Перад пачаткам выкарыстання плагіна %s трэба стварыць і наладзіць старонку для вывада дадзеных."
+
+#: community.php:497
+#, php-format
+msgid "Set now the page holder for %s."
+msgstr "Устанавіць зараз старонцы трымальнік для %s."
+
+#: settings.php:39
+msgid "Community General Settings"
+msgstr "Галоўныя налады суполкі"
+
+#: settings.php:54
+msgid "Community Page:"
+msgstr "Старонка суполкi:"
+
+#: settings.php:58
+msgid "Not set"
+msgstr "Не назначана"
+
+#: settings.php:61
+msgid "The page where to show all community outputs. <strong>You have to create this page first.</strong>"
+msgstr "Старонка, якая паказвае ўсе знешнія суполкі. <strong>You have to create this page first.</strong>"
+
+#: settings.php:69
+#: components/profiles-admin.php:51
+msgid "Privacy Options"
+msgstr "Налады бяспекі"
+
+#: settings.php:73
+msgid "Visibility:"
+msgstr ""
+
+#: settings.php:75
+msgid "Everyone"
+msgstr ""
+
+#: settings.php:76
+#: components/login/login.php:76
+#: components/login/login.php:77
+#, fuzzy
+msgid "Registered users"
+msgstr "Дата рэгістрацыі"
+
+#: settings.php:77
+msgid "Determines if the community pages are available to everyone (public access) or only to registered users."
+msgstr ""
+
+#: settings.php:85
+msgid "Activate Components"
+msgstr "Актываваць кампаненты"
+
+#: settings.php:93
+msgid "Yes"
+msgstr "Так"
+
+#: settings.php:94
+msgid "No"
+msgstr "Не"
+
+#: settings.php:107
+#: components/profiles-admin.php:216
+#: components/gallery/admin.php:189
+#: components/gallery/user.php:172
+#: components/login/admin.php:71
+msgid "Save Changes"
+msgstr "Захаваць налады"
+
+#: settings.php:119
+msgid "Plugin Homepage"
+msgstr "Старонка плагіна"
+
+#: settings.php:120
+msgid "Support Forum"
+msgstr "Форум падтрымкі"
+
+#: settings.php:121
+msgid "Author Homepage"
+msgstr "Старонка аўтара"
+
+#: settings.php:122
+msgid "Help donating"
+msgstr "Дапамагчы ахвяраваннем"
+
+#: components/profiles-admin.php:41
+msgid "User Profiles Settings"
+msgstr "Налады профіляў"
+
+#: components/profiles-admin.php:55
+msgid "Show addresses:"
+msgstr "Паказваць адрасы:"
+
+#: components/profiles-admin.php:57
+#: components/profiles.php:356
+msgid "E-mail"
+msgstr "E-mail"
+
+#: components/profiles-admin.php:58
+#: components/profiles.php:359
+msgid "AIM"
+msgstr "AIM"
+
+#: components/profiles-admin.php:59
+#: components/profiles.php:362
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: components/profiles-admin.php:60
+#: components/profiles.php:365
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+#: components/profiles-admin.php:64
+msgid "Show real name:"
+msgstr "Паказваць сапраўдныя імёны:"
+
+#: components/profiles-admin.php:66
+msgid "First Name"
+msgstr "Імя"
+
+#: components/profiles-admin.php:67
+msgid "Last Name"
+msgstr "Імя па бацьку"
+
+#: components/profiles-admin.php:68
+msgid "(Last name is only shown if first name is also shown)"
+msgstr "(Імя па бацьку толькі тады, калі паказваецца імя)"
+
+#: components/profiles-admin.php:72
+msgid "Show only users with this roles:"
+msgstr "Паказваць толькі наведвальнікаў з правам доступу:"
+
+#: components/profiles-admin.php:89
+msgid "List Options"
+msgstr "Налады спісу"
+
+#: components/profiles-admin.php:93
+msgid "Disable user list:"
+msgstr ""
+
+#: components/profiles-admin.php:95
+msgid "Disable user listing"
+msgstr ""
+
+#: components/profiles-admin.php:96
+msgid "The page will show edited content with no user list and will be used as holder for user profiles."
+msgstr ""
+
+#: components/profiles-admin.php:100
+msgid "Avatar Size:"
+msgstr "Памер аватары:"
+
+#: components/profiles-admin.php:103
+#: components/gallery/admin.php:124
+#: components/gallery/admin.php:134
+#: components/gallery/admin.php:142
+#: components/gallery/gallery.php:793
+#: components/login/login.php:291
+#: components/login/login.php:373
+msgid "pixels"
+msgstr "пікселяу."
+
+#: components/profiles-admin.php:103
+msgid "This size is only used on users list."
+msgstr "Гэты памер выкарыстоўваецца толькі ў спісах карыстальнікаў."
+
+#: components/profiles-admin.php:107
+msgid "Order users by:"
+msgstr "Загад карыстачам:"
+
+#: components/profiles-admin.php:111
+msgid "Display Name"
+msgstr "Паказваемае імя"
+
+#: components/profiles-admin.php:114
+msgid "Date Registered"
+msgstr "Дата рэгістрацыі"
+
+#: components/profiles-admin.php:117
+msgid "User Login"
+msgstr "Лагін"
+
+#: components/profiles-admin.php:120
+msgid "User ID"
+msgstr "ID"
+
+#: components/profiles-admin.php:125
+msgid "Ascending"
+msgstr "Па ўзыходжанню"
+
+#: components/profiles-admin.php:128
+msgid "Descending"
+msgstr "Па зыходжанню"
+
+#: components/profiles-admin.php:134
+msgid "Number of users per page:"
+msgstr "Колькасць карыстальнікаў на старонку:"
+
+#: components/profiles-admin.php:144
+msgid "Additional Options"
+msgstr "Дадатковыя налады"
+
+#: components/profiles-admin.php:148
+msgid "Author Link"
+msgstr "Спасылка на аўтара"
+
+#: components/profiles-admin.php:150
+msgid "Disabled"
+msgstr ""
+
+#: components/profiles-admin.php:151
+msgid "Replace current author link"
+msgstr ""
+
+#: components/profiles-admin.php:152
+msgid "Create new links to profile page"
+msgstr ""
+
+#: components/profiles-admin.php:153
+msgid "Select <strong>replace</strong> if your site shows links to author page when disabled. Select <strong>create</strong> if there are no links to author pages when disabled."
+msgstr ""
+
+#: components/profiles-admin.php:157
+msgid "Comments Link"
+msgstr ""
+
+#: components/profiles-admin.php:159
+msgid "Replace comments author link"
+msgstr ""
+
+#: components/profiles-admin.php:160
+msgid "This replaces the author comments link to the user profile page if exists"
+msgstr ""
+
+#: components/profiles-admin.php:164
+msgid "Show on profile"
+msgstr "Паказваць у профілі"
+
+#: components/profiles-admin.php:166
+#, fuzzy
+msgid "Link to author posts page"
+msgstr "Спасылка пасады на профіль аўтара"
+
+#: components/profiles-admin.php:166
+msgid "(Almost all themes support this)"
+msgstr ""
+
+#: components/profiles-admin.php:167
+msgid "Last user posts"
+msgstr "Апошні пост карыстальніка"
+
+#: components/profiles-admin.php:168
+msgid "Last user comments"
+msgstr "Апошні каментар карыстальніка"
+
+#: components/profiles-admin.php:176
+msgid "Custom labels"
+msgstr "Асобныя надпісы"
+
+#: components/profiles-admin.php:180
+msgid "AIM custom label:"
+msgstr "Асобныя надпісы AIM:"
+
+#: components/profiles-admin.php:186
+msgid "YIM custom label:"
+msgstr "Асобныя надпісы YIM:"
+
+#: components/profiles-admin.php:192
+msgid "Jabber custom label:"
+msgstr "Асобныя надпісы Jabber:"
+
+#: components/profiles-admin.php:199
+msgid "This will change the default labels for your IM addresses in Alkivia and WordPress user profile."
+msgstr "Гэта дазволіць змяніць цэтлікі для вашых чат-адрасоў у Alkivia і профілі карыстача ў WordPress ."
+
+#: components/profiles-admin.php:204
+#, php-format
+msgid "To be changed in the WordPress user profile, this feature requires WordPress 2.8 or higher. To see what to hack to make it run in your version, <a href=\"%s\" target=\"_blank\">read this post</a>."
+msgstr "Гэтая функцыя патрабуе WordPress 2.8 або вышэй. Гл. <a href=\"%s\" target=\"_blank\">гэты пост</a>"
+
+#: components/profiles.php:190
+msgid "User Profiles"
+msgstr "Карыстацкія профілі"
+
+#: components/profiles.php:210
+#: components/gallery/gallery.php:221
+msgid "User with this name not found."
+msgstr "Карыстальнік з такім імём не знойдзены. "
+
+#: components/profiles.php:235
+msgid "No users found in this page."
+msgstr "На гэтай старонцы не знойдзена карыстальнікаў."
+
+#: components/profiles.php:247
+msgid "Nickname"
+msgstr "Мянушка"
+
+#: components/profiles.php:248
+msgid "Role"
+msgstr "Правы"
+
+#: components/profiles.php:249
+#: components/profiles.php:353
+msgid "Website"
+msgstr "Сайт"
+
+#: components/profiles.php:250
+#: components/profiles.php:339
+msgid "Member Since"
+msgstr "Роля члена"
+
+#: components/profiles.php:306
+msgid "Edit your profile"
+msgstr "Рэдагаваць ваш профіль"
+
+#: components/profiles.php:308
+#, fuzzy
+msgid "Edit this user"
+msgstr "з гэтым малюнкам"
+
+#: components/profiles.php:316
+msgid "View this author's posts"
+msgstr ""
+
+#: components/profiles.php:319
+msgid "General Info"
+msgstr "Галоўная інфармацыя"
+
+#: components/profiles.php:326
+msgid "Real Name:"
+msgstr "Сапраўднае імя:"
+
+#: components/profiles.php:335
+msgid "Member Role"
+msgstr "Роля члена"
+
+#: components/profiles.php:343
+msgid "About me"
+msgstr "Пра мяне"
+
+#: components/profiles.php:369
+msgid "Where to contact"
+msgstr "Дзе кантакт"
+
+#: components/profiles.php:661
+msgid "Recent user posts:"
+msgstr "Апошнія пасты:"
+
+#: components/profiles.php:689
+msgid "Latest coments on:"
+msgstr "Апошнія каментары:"
+
+#: components/profiles.php:764
+msgid "<strong>ERROR</strong>: This nickname is already in use, please choose another one."
+msgstr ""
+
+#: components/profiles.php:803
+#: components/login/login.php:149
+#, fuzzy
+msgid "Bad form received."
+msgstr "Не даслана файлаў."
+
+#: components/gallery/admin.php:38
+msgid "Photo Gallery Settings"
+msgstr "Налады фотагалерэі"
+
+#: components/gallery/admin.php:48
+msgid "Avatars"
+msgstr "Аватары"
+
+#: components/gallery/admin.php:52
+msgid "Galley Avatars:"
+msgstr "Аватары галерэі:"
+
+#: components/gallery/admin.php:54
+msgid "Replace Gravatars by user gallery avatars."
+msgstr "Замяніць Gravatars аватарамі наведвальнікаў."
+
+#: components/gallery/admin.php:55
+msgid "If not local avatar, look for it at Gravatar."
+msgstr "Калі няма лагальнай аватары, выкарыстоўваць Gravatar."
+
+#: components/gallery/admin.php:56
+msgid "Avatars are shown or hidden depenmding on Discussion Settings for WordPress."
+msgstr "Аватары паказаныя альбо схаваныя ў наладах дыскусій ў WordPress."
+
+#: components/gallery/admin.php:60
+msgid "Anonymous avatar URL:"
+msgstr "URL ананімнай аватары:"
+
+#: components/gallery/admin.php:63
+msgid "A valid avatar URL. Must be a full URL to an small image. Leaving it empty will reset to a default anonymous avatar."
+msgstr "Правільны URL да аватары. Павінен уключаць поўны шлях да малюнка.<br />Пакіньце пустым, каб збіць ананімную аватару па змоўчванні."
+
+#: components/gallery/admin.php:71
+#, fuzzy
+msgid "Privacy"
+msgstr "Налады бяспекі"
+
+#: components/gallery/admin.php:75
+#, fuzzy
+msgid "Hide Pictures:"
+msgstr "Галоўны малюнак"
+
+#: components/gallery/admin.php:78
+msgid "User has to load at least one image to see other users pictures."
+msgstr ""
+
+#: components/gallery/admin.php:86
+msgid "User Limits"
+msgstr "Ліміт карыстальнікаў"
+
+#: components/gallery/admin.php:90
+msgid "Max. Upload images:"
+msgstr "Максімальна запампоўваемых малюнкаў:"
+
+#: components/gallery/admin.php:93
+msgid "Maximum number of images an user can upload."
+msgstr "Максімальны лік запампоўваемых малюнкаў."
+
+#: components/gallery/admin.php:97
+msgid "Max. Image size:"
+msgstr "Максімальны памер малюнка:"
+
+#: components/gallery/admin.php:100
+#, php-format
+msgid "Maximum size for each image file an user can upload in Kb. System max is: %s"
+msgstr "Максімальны памер кожнага малюнка ў кілабайтах. Сістэмна максімальны: %s"
+
+#: components/gallery/admin.php:104
+msgid "Max. Image megapixels:"
+msgstr "Максімальны памер у мегапікселях:"
+
+#: components/gallery/admin.php:106
+msgid "Megapixels"
+msgstr "Мегапікселяў"
+
+#: components/gallery/admin.php:107
+msgid "Maximum megapixels an image can have to be processed.<br />More megapixels, more memory needed (about 9 Mb processing memory per megapixel)"
+msgstr "Максімальны памер малюнка ў мегапікселях.<br />Чым больш мегапікселяў, тым больш памяці патрабуецца (каля 9 Mb для 1 Мп)"
+
+#: components/gallery/admin.php:115
+msgid "Image Sizes"
+msgstr "Памер малюнка:"
+
+#: components/gallery/admin.php:119
+msgid "Profile Image size:"
+msgstr "Памер малюнка профіля:"
+
+#: components/gallery/admin.php:121
+msgid "Use WordPress large size"
+msgstr "Выкарыстоўваць вялікія памеры ў WordPress "
+
+#: components/gallery/admin.php:122
+#: components/gallery/admin.php:132
+msgid "Use this settings"
+msgstr "Выкарыстоўваць гэтыя налады"
+
+#: components/gallery/admin.php:123
+#: components/gallery/admin.php:133
+msgid "Width"
+msgstr "Шырыня"
+
+#: components/gallery/admin.php:124
+#: components/gallery/admin.php:134
+msgid "Height"
+msgstr "Даўжыня"
+
+#: components/gallery/admin.php:125
+msgid "Images are always resized to this settings and this is the size that shows in the user profile page."
+msgstr "Малюнак заўсёды памер для гэтай налады, і гэта паказвае, што памер у карыстацкім профілі."
+
+#: components/gallery/admin.php:129
+msgid "Thumbnails size:"
+msgstr "Памер прэўюшак:"
+
+#: components/gallery/admin.php:131
+msgid "Use WordPress thumbnail size"
+msgstr "Выкарыстоўваць памер прэўю WordPress "
+
+#: components/gallery/admin.php:135
+msgid "Crop at exact size"
+msgstr "Выразаць малюнак:"
+
+#: components/gallery/admin.php:136
+msgid "This is the size for the user gallery thumbnails."
+msgstr "Гэта памер лоя прэую галерэй карыстальнікаў. "
+
+#: components/gallery/admin.php:140
+msgid "Avatar max size:"
+msgstr "Максімальны паме аватары:"
+
+#: components/gallery/admin.php:143
+msgid "It is recommended not to set this too big, site performance will be affected."
+msgstr "Не рэкамендуецца выкарыстоўваць занадта вялікія значэнні , бо хуткасць сайта ўпадзе. "
+
+#: components/gallery/admin.php:151
+msgid "Watermarks"
+msgstr "Водны знак малюнка:"
+
+#: components/gallery/admin.php:155
+msgid "Images Watermark:"
+msgstr "Водны знак малюнка:"
+
+#: components/gallery/admin.php:162
+msgid "Watermark large pictures"
+msgstr "Водны знак вялікага малюнка"
+
+#: components/gallery/admin.php:167
+msgid "with this image"
+msgstr "з гэтым малюнкам"
+
+#: components/gallery/admin.php:177
+msgid "Upload new watermark:"
+msgstr "Запампаваць новы водны малюнак:"
+
+#: components/gallery/admin.php:180
+msgid "The uploaded image will be proportionally resized to 1/3 of profile images width."
+msgstr "Памер загружанага малюнка будзе прапарцыйна памер на 1 / 3 шырыні вялікага малюнка."
+
+#: components/gallery/admin.php:199
+#, php-format
+msgid "Component %1$s by %2$s"
+msgstr ""
+
+#: components/gallery/gallery.php:185
+msgid "Shows the latest updated user galleries."
+msgstr ""
+
+#: components/gallery/gallery.php:186
+#: components/gallery/gallery.php:189
+#, fuzzy
+msgid "Gallery Updates"
+msgstr "Аватары галерэі:"
+
+#: components/gallery/gallery.php:200
+msgid "Photo Gallery"
+msgstr "Фотагалерэя"
+
+#: components/gallery/gallery.php:202
+msgid "Your Gallery"
+msgstr "Ваша галерэя"
+
+#: components/gallery/gallery.php:257
+#, php-format
+msgid "%s's Photo Gallery"
+msgstr "%s's Photo Gallery"
+
+#: components/gallery/gallery.php:260
+msgid "Manage your photo gallery"
+msgstr "Адміністраваць вашу фотагалерэю"
+
+#: components/gallery/gallery.php:262
+#, fuzzy
+msgid "Manage this user gallery"
+msgstr "Адміністраваць вашу фотагалерэю"
+
+#: components/gallery/gallery.php:353
+#: components/login/login.php:143
+msgid "Error"
+msgstr "Памылка"
+
+#: components/gallery/gallery.php:380
+msgid "Managing Gallery for"
+msgstr "Кіраваць галерэяй для"
+
+#: components/gallery/gallery.php:391
+msgid "Manage your Photo Gallery"
+msgstr "Кіраваць Photo Gallery"
+
+#: components/gallery/gallery.php:392
+msgid "Your"
+msgstr "Ваш"
+
+#: components/gallery/gallery.php:438
+msgid "Your uploaded image has been approved"
+msgstr ""
+
+#: components/gallery/gallery.php:440
+#, php-format
+msgid "The recently uploaded image to %s has been approved. From now, you image is online and available to site visitors."
+msgstr ""
+
+#: components/gallery/gallery.php:441
+msgid "Thanks for uploading your picture for sharing!"
+msgstr ""
+
+#: components/gallery/gallery.php:450
+msgid "Your uploaded image has been rejected"
+msgstr ""
+
+#: components/gallery/gallery.php:452
+#, php-format
+msgid "The recently uploaded image to %s has been rejected. Probably this is because the image does not follow the site rules."
+msgstr ""
+
+#: components/gallery/gallery.php:453
+msgid "Please, try to upload a different new picture."
+msgstr ""
+
+#: components/gallery/gallery.php:533
+#: components/login/login.php:141
+msgid "File uploaded."
+msgstr "Файл запампаваны."
+
+#: components/gallery/gallery.php:538
+msgid "Thumbnail created."
+msgstr "Прэўю зроблена."
+
+#: components/gallery/gallery.php:541
+msgid "Thumbnail error"
+msgstr "Памылка прэўю"
+
+#: components/gallery/gallery.php:546
+msgid "Avatar created."
+msgstr "Аватара створана."
+
+#: components/gallery/gallery.php:549
+msgid "Avatar error"
+msgstr "Памылка аватары"
+
+#: components/gallery/gallery.php:573
+msgid "Please moderate user gallery"
+msgstr ""
+
+#: components/gallery/gallery.php:575
+#, php-format
+msgid "A new image has been uploaded to the gallery for %s"
+msgstr ""
+
+#: components/gallery/gallery.php:576
+msgid "Please, moderate it at"
+msgstr ""
+
+#: components/gallery/gallery.php:582
+msgid "Upload error"
+msgstr "Памылка запампоўкі"
+
+#: components/gallery/gallery.php:586
+msgid "No file received. Trying to send a file too big?"
+msgstr "Файл не дасланы. Можа быць, файл занадта вялікі?"
+
+#: components/gallery/gallery.php:629
+msgid "Edit Photo Gallery"
+msgstr "Рэдагаваць фотагалерэю"
+
+#: components/gallery/gallery.php:674
+#, php-format
+msgid "View all user pictures [%d]"
+msgstr "Глаядзець усе малюнкі карыстачоў [%d]"
+
+#: components/gallery/gallery.php:696
+#, php-format
+msgid "To see pictures from other users, you have to load at least one picture to <a href=\"%s\">your gallery</a>."
+msgstr ""
+
+#: components/gallery/gallery.php:791
+#: components/login/login.php:289
+#: components/login/login.php:371
+msgid "Title:"
+msgstr ""
+
+#: components/gallery/gallery.php:792
+#: components/login/login.php:290
+#: components/login/login.php:372
+#, fuzzy
+msgid "Show Avatars"
+msgstr "Аватары"
+
+#: components/gallery/gallery.php:793
+#: components/login/login.php:291
+#: components/login/login.php:373
+#, fuzzy
+msgid "Avatar size:"
+msgstr "Памер аватары:"
+
+#: components/gallery/gallery.php:794
+#: components/login/login.php:292
+#: components/login/login.php:374
+#, fuzzy
+msgid "Number of users:"
+msgstr "Колькасць карыстальнікаў на старонку:"
+
+#: components/gallery/gallery.php:795
+#: components/login/login.php:293
+#: components/login/login.php:375
+#, php-format
+msgid "(At most %d)"
+msgstr ""
+
+#: components/gallery/gallery.php:966
+msgid "Local Anonymous <em>(Defined in Community Gallery settings)</em>"
+msgstr "Лакальны ананім <em>(вызначана ў наладах Community Gallery)</em>"
+
+#: components/gallery/user.php:57
+msgid "Upload a new picture"
+msgstr "Запампаваць новы малюнак"
+
+#: components/gallery/user.php:62
+#: components/login/admin.php:59
+msgid "Upload new image:"
+msgstr "Запампаваць новы малюнак:"
+
+#: components/gallery/user.php:70
+msgid "Upload Image"
+msgstr "Запампаваць малюнак"
+
+#: components/gallery/user.php:77
+#, php-format
+msgid "Maximum accepted sizes are %1$s and %2$s megapixels."
+msgstr "Максімальна дапушчальны памер %1$s і %2$s мегапікселяў"
+
+#: components/gallery/user.php:79
+#: components/gallery/user.php:86
+#, php-format
+msgid "The upload limit is set to %d images."
+msgstr "Ліміт запампоўвання - %d малюнкаў. "
+
+#: components/gallery/user.php:85
+msgid "You already have uploaded the maximum allowed images."
+msgstr "Вы ўжо дасягнулі максімаум дапушчальных малюнкаў."
+
+#: components/gallery/user.php:100
+msgid "Uploaded Images"
+msgstr "Вашы запампаваныя малюнкі"
+
+#: components/gallery/user.php:105
+#: components/gallery/user.php:156
+msgid "ID"
+msgstr "ID"
+
+#: components/gallery/user.php:106
+#: components/gallery/user.php:157
+msgid "Name"
+msgstr "Імя"
+
+#: components/gallery/user.php:107
+#: components/gallery/user.php:158
+msgid "Avatar"
+msgstr "Аватара"
+
+#: components/gallery/user.php:108
+#: components/gallery/user.php:159
+msgid "Caption"
+msgstr ""
+
+#: components/gallery/user.php:109
+#: components/gallery/user.php:160
+msgid "Main Picture"
+msgstr "Галоўны малюнак"
+
+#: components/gallery/user.php:110
+#: components/gallery/user.php:161
+msgid "Is Avatar"
+msgstr "Гэтая аватара"
+
+#: components/gallery/user.php:111
+#: components/gallery/user.php:162
+msgid "Moderation"
+msgstr ""
+
+#: components/gallery/user.php:112
+#: components/gallery/user.php:163
+msgid "Delete"
+msgstr "Выдаліць"
+
+#: components/gallery/user.php:124
+#: components/gallery/user.php:142
+#, fuzzy
+msgid "Pending"
+msgstr "Па ўзыходжанню"
+
+#: components/gallery/user.php:126
+#: components/gallery/user.php:143
+msgid "Approved"
+msgstr ""
+
+#: components/gallery/user.php:128
+#: components/gallery/user.php:144
+msgid "Rejected"
+msgstr ""
+
+#: components/gallery/user.php:132
+#, php-format
+msgid "Image Preview %d"
+msgstr "Прэўю %d"
+
+#: components/gallery/user.php:132
+msgid "View Larger"
+msgstr "Глядзець большы"
+
+#: components/login/admin.php:38
+msgid "Login Form Settings"
+msgstr "Налады формы ўваходу"
+
+#: components/login/admin.php:48
+msgid "Login form image"
+msgstr "Цяперашні малюнак уваходуl:"
+
+#: components/login/admin.php:52
+msgid "Current login image:"
+msgstr "Цяперашні малюнак уваходуl:"
+
+#: components/login/admin.php:62
+msgid "Recommended size: 326x67 pixels. The uploaded image will be proportionally resized to 326 pixels wide."
+msgstr "Рэкамендуемы памер: 326x67 пікселяў. Малюнак, які запампоўваецца, павінен быць прапарцыянальна зменшаны да 326 пікселяў па шырыні."
+
+#: components/login/login.php:75
+#, fuzzy
+msgid "List of latest registered users."
+msgstr "Дата рэгістрацыі"
+
+#: components/login/login.php:80
+msgid "Latest users that accessed the site."
+msgstr ""
+
+#: components/login/login.php:81
+#: components/login/login.php:82
+msgid "Logged in users"
+msgstr ""
+
+#: components/login/login.php:92
+msgid "Login Form"
+msgstr "Форма ўваходу"
+
+#: components/login/login.php:146
+msgid "No file received."
+msgstr "Не даслана файлаў."
+
+#: framework/formating.php:38
+msgid "Settings saved."
+msgstr "Налады захаваныя."
+
+#: framework/plugins.php:483
+#, php-format
+msgid "The active plugin %s is not compatible with your WordPress version."
+msgstr "Актыўны плагін %s не сумяшчальны з вашай версіяй WordPress."
+
+#: framework/plugins.php:485
+#, php-format
+msgid "WordPress %s is required to run this plugin."
+msgstr "WordPress %s абавязковы для запуску гэтага плагіна."
+
+#: framework/plugins.php:525
+msgid "Standard sidebar functions are not present."
+msgstr "Стандартная функцыя бакавой панэлі не прадстаўлена."
+
+#: framework/plugins.php:526
+#, php-format
+msgid "It is required to use the standard sidebar to run %s"
+msgstr "Неабходна выкарыстаць стандартную бакавую панэль для запуску %s"
+
+#: framework/upload.php:2086
+msgid "File error. Please try again."
+msgstr "Памылка файла. Калі ласка, паўтарыце ізноў"
+
+#: framework/upload.php:2087
+msgid "Local file doesn't exist."
+msgstr "Лакальны файл не існуе."
+
+#: framework/upload.php:2088
+msgid "Local file is not readable."
+msgstr "Лакальны файл не чытаецца."
+
+#: framework/upload.php:2089
+msgid "File upload error (the uploaded file exceeds the upload_max_filesize directive in php.ini)."
+msgstr "Памылка запампоўкі файла (максімальны памер прапісваецца ў дырэктыве upload_max_filesize directive у файле php.ini)."
+
+#: framework/upload.php:2090
+msgid "File upload error (the uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the html form)."
+msgstr "Памылка запампоўкі (максімальны памер прапісваецца ў дырэктыве MAX_FILE_SIZE у форме  html form)."
+
+#: framework/upload.php:2091
+msgid "File upload error (the uploaded file was only partially uploaded)."
+msgstr "Памылка запампоўкі (файл часткова запампаваны)"
+
+#: framework/upload.php:2092
+msgid "File upload error (no file was uploaded)."
+msgstr "Памылка запампоўкі (невядомая памылка)"
+
+#: framework/upload.php:2093
+msgid "File upload error (unknown error code)."
+msgstr "Памылка запампоўкі (невядомая памылка)"
+
+#: framework/upload.php:2094
+msgid "File upload error. Please try again."
+msgstr "Памылка запампоўкі. Паўтарыце ізноў."
+
+#: framework/upload.php:2095
+msgid "File too big."
+msgstr "Файл зашмат вялікі."
+
+#: framework/upload.php:2096
+msgid "MIME type can't be detected."
+msgstr "MIME type не вызначаны."
+
+#: framework/upload.php:2097
+msgid "Incorrect type of file."
+msgstr "Няправільны тып файла."
+
+#: framework/upload.php:2098
+msgid "Image too wide."
+msgstr "Малюнак вельмі шырокі."
+
+#: framework/upload.php:2099
+msgid "Image too narrow."
+msgstr "Малюнак вельмі вузкі."
+
+#: framework/upload.php:2100
+msgid "Image too high."
+msgstr "Малюнак вельмі высокі."
+
+#: framework/upload.php:2101
+msgid "Image too short."
+msgstr "Малюнак вельмі кароткі."
+
+#: framework/upload.php:2102
+msgid "Image ratio too high (image too wide)."
+msgstr "Каэфіцыент занадта высокі (малюнак занадта шырокі)."
+
+#: framework/upload.php:2103
+msgid "Image ratio too low (image too high)."
+msgstr "Каэфіцыент занадта малы (малюнак занадта высокі)."
+
+#: framework/upload.php:2104
+msgid "Image has too many pixels."
+msgstr "Малюнак мае вельмі шмат пікселяў."
+
+#: framework/upload.php:2105
+msgid "Image has not enough pixels."
+msgstr "Малюнак мае не мае пікселяў."
+
+#: framework/upload.php:2106
+msgid "File not uploaded. Can't carry on a process."
+msgstr "Файл не запампаваны. Нельга ўмешвацца ў працэс. "
+
+#: framework/upload.php:2107
+#, php-format
+msgid "%s already exists. Please change the file name."
+msgstr "%s ужо існуе. Калі ласка, змяніце імя файла."
+
+#: framework/upload.php:2108
+msgid "No correct temp source file. Can't carry on a process."
+msgstr "Няправільны часовы зыходны файл. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2109
+msgid "No correct uploaded source file. Can't carry on a process."
+msgstr "Няправільны часовы запампаваны файл. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2110
+msgid "Destination directory can't be created. Can't carry on a process."
+msgstr "Дырэкторыя не існуе. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2111
+msgid "Destination directory doesn't exist. Can't carry on a process."
+msgstr "Дырэкторыя не існуе. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2112
+msgid "Destination path is not a directory. Can't carry on a process."
+msgstr "Указаны шлях - не дырэкторыя. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2113
+msgid "Destination directory can't be made writeable. Can't carry on a process."
+msgstr "Дырэкторыя не здольная да перазапісу. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2114
+msgid "Destination path is not a writeable. Can't carry on a process."
+msgstr "Указаны шлях не здольны да перазапісу. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2115
+msgid "Can't create the temporary file. Can't carry on a process."
+msgstr "Немагчыма стварыць часовы файл. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2116
+msgid "Source file is not readable. Can't carry on a process."
+msgstr "Немагчыма стварыць часовы файл. Немагчыма здзейсніць працэс."
+
+#: framework/upload.php:2117
+#, php-format
+msgid "No create from %s support."
+msgstr "Не створаны %s."
+
+#: framework/upload.php:2118
+#, php-format
+msgid "Error in creating %s image from source."
+msgstr "Памылка стварэння малюнка %s з крыніцы."
+
+#: framework/upload.php:2119
+msgid "Can't read image source. Not an image?."
+msgstr "Не чытаецца крыніца? Гэта малюнак?"
+
+#: framework/upload.php:2120
+msgid "GD doesn't seem to be present."
+msgstr "GD так, як уяўляецца, не можа прысутнічаць."
+
+#: framework/upload.php:2121
+#, php-format
+msgid "No create from %s support, can't read watermark."
+msgstr "Не створаны %s, не чытаецца водны знак."
+
+#: framework/upload.php:2122
+#, php-format
+msgid "No %s read support, can't create watermark."
+msgstr "Не створаны %s, не чытаецца водны знак."
+
+#: framework/upload.php:2123
+msgid "Unknown image format, can't read watermark."
+msgstr "Невядомы фармат %s, не чытаецца водны знак."
+
+#: framework/upload.php:2124
+#, php-format
+msgid "No %s create support."
+msgstr "Не створаны %s."
+
+#: framework/upload.php:2125
+msgid "No conversion type defined."
+msgstr "Тып ператварэння не вызначаны."
+
+#: framework/upload.php:2126
+msgid "Error copying file on the server. copy() failed."
+msgstr "Памылка капіравання файла на сервер. Памылка copy()."
+
+#: framework/upload.php:2127
+msgid "Error reading the file."
+msgstr "Памылка чытання файла."
+
+#: lang/additional-strings.php:4
+msgid "Manages public profiles pages."
+msgstr ""
+
+#: lang/additional-strings.php:9
+#, fuzzy
+msgid "Manages user photo galleries for User Community."
+msgstr "Адміністраваць вашу фотагалерэю"
+
+#: lang/additional-strings.php:12
+#, fuzzy
+msgid "Custom Login Form"
+msgstr "Спецыяльная форма ўваходу:"
+
+#: lang/additional-strings.php:13
+msgid "Configures custom styles, links and logo in the login form."
+msgstr ""
+
+#~ msgid "Settings Updated."
+#~ msgstr "Налады абноўленыя."
+#~ msgid "Photo galleries:"
+#~ msgstr "Фотагалерэі:"
+

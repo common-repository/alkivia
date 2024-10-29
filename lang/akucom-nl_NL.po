@@ -1,0 +1,1107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Community\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-01 02:32+0100\n"
+"PO-Revision-Date: 2009-06-02 15:56+0100\n"
+"Last-Translator: Jordi Canals <jcanals@alkivia.com>\n"
+"Language-Team: Alkivia | http://alkivia.org <gpl@alkivia.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;_c;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: alkivia.php:52
+#: community.php:494
+#: framework/plugins.php:482
+#: framework/plugins.php:524
+msgid "Warning:"
+msgstr "Waarschuwing"
+
+#: alkivia.php:53
+#, php-format
+msgid "The active plugin %s is not compatible with your PHP version."
+msgstr "De actieve plugin %s is niet geschikt voor je PHP versie"
+
+#: alkivia.php:54
+#, php-format
+msgid "%s is required for this plugin."
+msgstr "%s is vereist voor deze plugin"
+
+#: community.php:141
+#, php-format
+msgid "Please <a href=\"%s\">Log In</a> to see the content."
+msgstr "<a href=\"%s\">Log in</a> om de inhoud te zien."
+
+#: community.php:143
+msgid "Yo have to be registered to access this page."
+msgstr "Je moet geregistreerd zijn om deze pagina te zien"
+
+#: community.php:303
+msgid "User Community"
+msgstr "User Community"
+
+#: community.php:303
+msgid "Community"
+msgstr "Community"
+
+#: community.php:304
+#: settings.php:49
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: community.php:304
+msgid "General"
+msgstr "Algemeen"
+
+#: community.php:317
+#: components/profiles.php:776
+#: components/gallery/gallery.php:291
+#: components/gallery/gallery.php:371
+#: components/gallery/gallery.php:383
+#: components/login/login.php:103
+msgid "What do you think you're doing?!?"
+msgstr "Wat denk je dat je aan het doen bent?!"
+
+#: community.php:495
+#, php-format
+msgid "Before start using the plugin %s you have to create and set the page to hold output data."
+msgstr "Voordat je met plugin %s start, moet je een pagina maken om de data op te publiceren."
+
+#: community.php:497
+#, php-format
+msgid "Set now the page holder for %s."
+msgstr "Stel de pagina voor %s in."
+
+#: settings.php:39
+msgid "Community General Settings"
+msgstr "Algemene Community instellingen"
+
+#: settings.php:54
+msgid "Community Page:"
+msgstr "Community pagina"
+
+#: settings.php:58
+msgid "Not set"
+msgstr "Niet ingesteld"
+
+#: settings.php:61
+msgid "The page where to show all community outputs. <strong>You have to create this page first.</strong>"
+msgstr "De pagina om alle community data neer te zetten. <strong>Je moet deze pagina als eerste instellen</strong>"
+
+#: settings.php:69
+#: components/profiles-admin.php:51
+msgid "Privacy Options"
+msgstr "Privacy opties"
+
+#: settings.php:73
+msgid "Visibility:"
+msgstr "Zichtbaarheid"
+
+#: settings.php:75
+msgid "Everyone"
+msgstr "Iedereen"
+
+#: settings.php:76
+#: components/login/login.php:76
+#: components/login/login.php:77
+msgid "Registered users"
+msgstr "Geregistreerde gebruikers"
+
+#: settings.php:77
+msgid "Determines if the community pages are available to everyone (public access) or only to registered users."
+msgstr "Stel in of de community pagina zichtbaar is voor iedereen of alleen voor geregistreerde gebruikers."
+
+#: settings.php:85
+msgid "Activate Components"
+msgstr "Actieve componenten"
+
+#: settings.php:93
+msgid "Yes"
+msgstr "Ja"
+
+#: settings.php:94
+msgid "No"
+msgstr "Nee"
+
+#: settings.php:107
+#: components/profiles-admin.php:216
+#: components/gallery/admin.php:189
+#: components/gallery/user.php:172
+#: components/login/admin.php:71
+msgid "Save Changes"
+msgstr "Sla wijzigingen op"
+
+#: settings.php:119
+msgid "Plugin Homepage"
+msgstr "Plugin website"
+
+#: settings.php:120
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: settings.php:121
+msgid "Author Homepage"
+msgstr "Auteur Homepage"
+
+#: settings.php:122
+msgid "Help donating"
+msgstr "Doneer"
+
+#: components/profiles-admin.php:41
+msgid "User Profiles Settings"
+msgstr "Gebruikers profiel instellingen"
+
+#: components/profiles-admin.php:55
+msgid "Show addresses:"
+msgstr "Laat adressen zien:"
+
+#: components/profiles-admin.php:57
+#: components/profiles.php:356
+msgid "E-mail"
+msgstr "E-mail"
+
+#: components/profiles-admin.php:58
+#: components/profiles.php:359
+msgid "AIM"
+msgstr "AIM"
+
+#: components/profiles-admin.php:59
+#: components/profiles.php:362
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: components/profiles-admin.php:60
+#: components/profiles.php:365
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+#: components/profiles-admin.php:64
+msgid "Show real name:"
+msgstr "Laat echte naam zien:"
+
+#: components/profiles-admin.php:66
+msgid "First Name"
+msgstr "Voornaam"
+
+#: components/profiles-admin.php:67
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: components/profiles-admin.php:68
+msgid "(Last name is only shown if first name is also shown)"
+msgstr "(Achternaam is alleen weergegeven als voornaam ook zichtbaar is)"
+
+#: components/profiles-admin.php:72
+msgid "Show only users with this roles:"
+msgstr "Laat alleen gebruikers zien met deze rollen:"
+
+#: components/profiles-admin.php:89
+msgid "List Options"
+msgstr "Lijst opties"
+
+#: components/profiles-admin.php:93
+msgid "Disable user list:"
+msgstr "Schakel gebruikerslijst uit:"
+
+#: components/profiles-admin.php:95
+msgid "Disable user listing"
+msgstr "Uitschakelen van gebruikerslijst"
+
+#: components/profiles-admin.php:96
+msgid "The page will show edited content with no user list and will be used as holder for user profiles."
+msgstr "De pagina laat geen gebruikerslijst zien, maar wordt gebruikt als pagina houder voor gebruikers profielen."
+
+#: components/profiles-admin.php:100
+msgid "Avatar Size:"
+msgstr "Avatar afmeting:"
+
+#: components/profiles-admin.php:103
+#: components/gallery/admin.php:124
+#: components/gallery/admin.php:134
+#: components/gallery/admin.php:142
+#: components/gallery/gallery.php:793
+#: components/login/login.php:291
+#: components/login/login.php:373
+msgid "pixels"
+msgstr "pixels"
+
+#: components/profiles-admin.php:103
+msgid "This size is only used on users list."
+msgstr "Deze afmeting wordt alleen gebruikt in de gebruikerslijst."
+
+#: components/profiles-admin.php:107
+msgid "Order users by:"
+msgstr "Sorteer gebruikers op:"
+
+#: components/profiles-admin.php:111
+msgid "Display Name"
+msgstr "Afgebeelde naam"
+
+#: components/profiles-admin.php:114
+msgid "Date Registered"
+msgstr "Datum geregistreerd"
+
+#: components/profiles-admin.php:117
+msgid "User Login"
+msgstr "Gebruiker login"
+
+#: components/profiles-admin.php:120
+msgid "User ID"
+msgstr "Gebruiker ID"
+
+#: components/profiles-admin.php:125
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: components/profiles-admin.php:128
+msgid "Descending"
+msgstr "Aflopend"
+
+#: components/profiles-admin.php:134
+msgid "Number of users per page:"
+msgstr "Aantal gebruikers per pagina:"
+
+#: components/profiles-admin.php:144
+msgid "Additional Options"
+msgstr "Extra opties"
+
+#: components/profiles-admin.php:148
+msgid "Author Link"
+msgstr "Gebruiker link"
+
+#: components/profiles-admin.php:150
+msgid "Disabled"
+msgstr "Uitschakelen"
+
+#: components/profiles-admin.php:151
+msgid "Replace current author link"
+msgstr "Vervang de huidige auteur link"
+
+#: components/profiles-admin.php:152
+msgid "Create new links to profile page"
+msgstr "Creër nieuwe links voor de profiel pagina"
+
+#: components/profiles-admin.php:153
+msgid "Select <strong>replace</strong> if your site shows links to author page when disabled. Select <strong>create</strong> if there are no links to author pages when disabled."
+msgstr "Selecteer <strong>vervang</strong> indien jouw site linkt naar de auteurs pagina. Selecteer <strong>creër</strong> als de link naar auteur pagina's zijn uitgeschakeld."
+
+#: components/profiles-admin.php:157
+msgid "Comments Link"
+msgstr "Commentaar link"
+
+#: components/profiles-admin.php:159
+msgid "Replace comments author link"
+msgstr "Vervang commentaar auteur link"
+
+#: components/profiles-admin.php:160
+msgid "This replaces the author comments link to the user profile page if exists"
+msgstr "Dit vervangt de auteur commentaar link door de profiel pagina van de gebruiker (indien deze bestaat)"
+
+#: components/profiles-admin.php:164
+msgid "Show on profile"
+msgstr "Laat zien op profiel"
+
+#: components/profiles-admin.php:166
+msgid "Link to author posts page"
+msgstr "Link posts van auteur naar profiel"
+
+#: components/profiles-admin.php:166
+msgid "(Almost all themes support this)"
+msgstr "(Vrijwel alle thema's ondersteunen dit)"
+
+#: components/profiles-admin.php:167
+msgid "Last user posts"
+msgstr "Laatst geplaatste posts"
+
+#: components/profiles-admin.php:168
+msgid "Last user comments"
+msgstr "Laatste gebruiker commentaar"
+
+#: components/profiles-admin.php:176
+msgid "Custom labels"
+msgstr "Aangepaste labels"
+
+#: components/profiles-admin.php:180
+msgid "AIM custom label:"
+msgstr "AIM aangepaste label"
+
+#: components/profiles-admin.php:186
+msgid "YIM custom label:"
+msgstr "YIM aangepaste label:"
+
+#: components/profiles-admin.php:192
+msgid "Jabber custom label:"
+msgstr "Jabber aangepaste label:"
+
+#: components/profiles-admin.php:199
+msgid "This will change the default labels for your IM addresses in Alkivia and WordPress user profile."
+msgstr "Dit zal de standaard labels voor je IM adressen in Alkivia en Wordpress zetten in gebruikers profielen."
+
+#: components/profiles-admin.php:204
+#, php-format
+msgid "To be changed in the WordPress user profile, this feature requires WordPress 2.8 or higher. To see what to hack to make it run in your version, <a href=\"%s\" target=\"_blank\">read this post</a>."
+msgstr "Voordat het zichtbaar is in de gebruikers profielen van Wordpress, zal Wordpress 2.8 of hoger geinstalleerd moeten zijn. Om te zien hoe het er op jouw versie uitziet, <a href=\"%s\" target=\"_blank\">lees deze post</a>."
+
+#: components/profiles.php:190
+msgid "User Profiles"
+msgstr "Gebruikers profielen"
+
+#: components/profiles.php:210
+#: components/gallery/gallery.php:221
+msgid "User with this name not found."
+msgstr "Gebruiker met deze naam is niet gevonden"
+
+#: components/profiles.php:235
+msgid "No users found in this page."
+msgstr "Geen gebruikers gevonden op deze pagina"
+
+#: components/profiles.php:247
+msgid "Nickname"
+msgstr "Gebruikersnaam"
+
+#: components/profiles.php:248
+msgid "Role"
+msgstr "Rol"
+
+#: components/profiles.php:249
+#: components/profiles.php:353
+msgid "Website"
+msgstr "Website"
+
+#: components/profiles.php:250
+#: components/profiles.php:339
+msgid "Member Since"
+msgstr "Lid sinds"
+
+#: components/profiles.php:306
+msgid "Edit your profile"
+msgstr "Bewerk je profiel"
+
+#: components/profiles.php:308
+msgid "Edit this user"
+msgstr "Bewerk deze gebruiker"
+
+#: components/profiles.php:316
+msgid "View this author's posts"
+msgstr "Bekijk de auteur's berichten"
+
+#: components/profiles.php:319
+msgid "General Info"
+msgstr "Algemene informatie"
+
+#: components/profiles.php:326
+msgid "Real Name:"
+msgstr "Naam"
+
+#: components/profiles.php:335
+msgid "Member Role"
+msgstr "Rol"
+
+#: components/profiles.php:343
+msgid "About me"
+msgstr "Over mij"
+
+#: components/profiles.php:369
+msgid "Where to contact"
+msgstr "Contact informatie"
+
+#: components/profiles.php:661
+msgid "Recent user posts:"
+msgstr "Recente posts"
+
+#: components/profiles.php:689
+msgid "Latest coments on:"
+msgstr "Laatste reacties op:"
+
+#: components/profiles.php:764
+msgid "<strong>ERROR</strong>: This nickname is already in use, please choose another one."
+msgstr "<strong>FOUT</strong>: Deze gebruikersnaam is al in gebruik. Gelieve een andere te kiezen."
+
+#: components/profiles.php:803
+#: components/login/login.php:149
+msgid "Bad form received."
+msgstr "Geen afbeelding ontvangen."
+
+#: components/gallery/admin.php:38
+msgid "Photo Gallery Settings"
+msgstr "Foto galerij instellingen"
+
+#: components/gallery/admin.php:48
+msgid "Avatars"
+msgstr "Avatars"
+
+#: components/gallery/admin.php:52
+msgid "Galley Avatars:"
+msgstr "Galerij Avatars"
+
+#: components/gallery/admin.php:54
+msgid "Replace Gravatars by user gallery avatars."
+msgstr "Vervang Gravatars door avatars van gebruikers."
+
+#: components/gallery/admin.php:55
+msgid "If not local avatar, look for it at Gravatar."
+msgstr "Als er geen avatar aanwezig is, kijk dan voor Gravatar"
+
+#: components/gallery/admin.php:56
+msgid "Avatars are shown or hidden depenmding on Discussion Settings for WordPress."
+msgstr "Avatars worden afgebeeld of verborgen, aangaande de instellingen van Wordpress."
+
+#: components/gallery/admin.php:60
+msgid "Anonymous avatar URL:"
+msgstr "Anonieme avatar URL:"
+
+#: components/gallery/admin.php:63
+msgid "A valid avatar URL. Must be a full URL to an small image. Leaving it empty will reset to a default anonymous avatar."
+msgstr "Een bestaande avatar URL. Het moet een volledige URL zijn naar een kleine afbeelding. Wanneer het leeg wordt gelaten zal de standaard avatar worden gebruikt."
+
+#: components/gallery/admin.php:71
+msgid "Privacy"
+msgstr "Privacy opties"
+
+#: components/gallery/admin.php:75
+msgid "Hide Pictures:"
+msgstr "Verberg afbeeldingen:"
+
+#: components/gallery/admin.php:78
+msgid "User has to load at least one image to see other users pictures."
+msgstr "De gebruiker moet tenminste een afbeelding uploaden voordat hij afbeeldingen van andere gebruikers kan zien."
+
+#: components/gallery/admin.php:86
+msgid "User Limits"
+msgstr "Gebruikers limieten"
+
+#: components/gallery/admin.php:90
+msgid "Max. Upload images:"
+msgstr "Maximale afbeeldingen:"
+
+#: components/gallery/admin.php:93
+msgid "Maximum number of images an user can upload."
+msgstr "Het maximale aantal afbeeldingen die een gebruiker kan uploaden"
+
+#: components/gallery/admin.php:97
+msgid "Max. Image size:"
+msgstr "Maximale afbeeldings grootte:"
+
+#: components/gallery/admin.php:100
+#, php-format
+msgid "Maximum size for each image file an user can upload in Kb. System max is: %s"
+msgstr "De maximale aantal kb die een gebruiker kan uploaden. Het maximale van het systeem is %s"
+
+#: components/gallery/admin.php:104
+msgid "Max. Image megapixels:"
+msgstr "Maximaal aantal megapixels:"
+
+#: components/gallery/admin.php:106
+msgid "Megapixels"
+msgstr "Megapixels"
+
+#: components/gallery/admin.php:107
+msgid "Maximum megapixels an image can have to be processed.<br />More megapixels, more memory needed (about 9 Mb processing memory per megapixel)"
+msgstr "Het maximale aantal megapixels die een afbeelding kan hebben om upgeload te worden.<br />Meer megapixels betekend meer geheugen gebruik (Ongeveer 9 Mb per megapixel)"
+
+#: components/gallery/admin.php:115
+msgid "Image Sizes"
+msgstr "Afbeelding afmetingen"
+
+#: components/gallery/admin.php:119
+msgid "Profile Image size:"
+msgstr "Profiel afbeeldings grootte"
+
+#: components/gallery/admin.php:121
+msgid "Use WordPress large size"
+msgstr "Gebruikt Wordpress grootte"
+
+#: components/gallery/admin.php:122
+#: components/gallery/admin.php:132
+msgid "Use this settings"
+msgstr "Gebruik deze instelling"
+
+#: components/gallery/admin.php:123
+#: components/gallery/admin.php:133
+msgid "Width"
+msgstr "Breedte"
+
+#: components/gallery/admin.php:124
+#: components/gallery/admin.php:134
+msgid "Height"
+msgstr "Hoogte"
+
+#: components/gallery/admin.php:125
+msgid "Images are always resized to this settings and this is the size that shows in the user profile page."
+msgstr "Afbeeldingen worden altijd veranderd naar deze instelling en dit is de afmeting die wordt getoont in de profiel pagina."
+
+#: components/gallery/admin.php:129
+msgid "Thumbnails size:"
+msgstr "Thumbnail afmeting:"
+
+#: components/gallery/admin.php:131
+msgid "Use WordPress thumbnail size"
+msgstr "Gebruik de afmeting van de Wordpress thumbnail"
+
+#: components/gallery/admin.php:135
+msgid "Crop at exact size"
+msgstr "Verklein naar exacte afmeting"
+
+#: components/gallery/admin.php:136
+msgid "This is the size for the user gallery thumbnails."
+msgstr "Dit is de afmeting van de gebruiker galerij thumbails."
+
+#: components/gallery/admin.php:140
+msgid "Avatar max size:"
+msgstr "Maximale avatar afmeting:"
+
+#: components/gallery/admin.php:143
+msgid "It is recommended not to set this too big, site performance will be affected."
+msgstr "Het is aan te raden deze niet te groot te zetten omdat de prestaties van de site beinvloed zullen worden."
+
+#: components/gallery/admin.php:151
+msgid "Watermarks"
+msgstr "Watermerken"
+
+#: components/gallery/admin.php:155
+msgid "Images Watermark:"
+msgstr "Watermerk afbeeldingen"
+
+#: components/gallery/admin.php:162
+msgid "Watermark large pictures"
+msgstr "Watermerk grote afbeeldingen"
+
+#: components/gallery/admin.php:167
+msgid "with this image"
+msgstr "met deze afbeeling"
+
+#: components/gallery/admin.php:177
+msgid "Upload new watermark:"
+msgstr "Upload nieuw watermerk"
+
+#: components/gallery/admin.php:180
+msgid "The uploaded image will be proportionally resized to 1/3 of profile images width."
+msgstr "De geuploade afbeeling wordt proportioneel verkleind naar 1/3e van de breedte van de profiel afbeeling."
+
+#: components/gallery/admin.php:199
+#, php-format
+msgid "Component %1$s by %2$s"
+msgstr "Component %1$s bij %2$s"
+
+#: components/gallery/gallery.php:185
+msgid "Shows the latest updated user galleries."
+msgstr "Laat de laatst geupdate gebruikers galerijen zien."
+
+#: components/gallery/gallery.php:186
+#: components/gallery/gallery.php:189
+msgid "Gallery Updates"
+msgstr "Galerij Avatars"
+
+#: components/gallery/gallery.php:200
+msgid "Photo Gallery"
+msgstr "Foto galerij"
+
+#: components/gallery/gallery.php:202
+msgid "Your Gallery"
+msgstr "Jouw galerij"
+
+#: components/gallery/gallery.php:257
+#, php-format
+msgid "%s's Photo Gallery"
+msgstr "%s's foto galerij"
+
+#: components/gallery/gallery.php:260
+msgid "Manage your photo gallery"
+msgstr "Beheer de foto galerij"
+
+#: components/gallery/gallery.php:262
+msgid "Manage this user gallery"
+msgstr "Beheer je foto galerij"
+
+#: components/gallery/gallery.php:353
+#: components/login/login.php:143
+msgid "Error"
+msgstr "Foutmelding"
+
+#: components/gallery/gallery.php:380
+msgid "Managing Gallery for"
+msgstr "Beheer galerij voor"
+
+#: components/gallery/gallery.php:391
+msgid "Manage your Photo Gallery"
+msgstr "Beheer je foto galerij"
+
+#: components/gallery/gallery.php:392
+msgid "Your"
+msgstr "Jouw"
+
+#: components/gallery/gallery.php:438
+msgid "Your uploaded image has been approved"
+msgstr "Je geuploade afbeelding is goedgekeurd"
+
+#: components/gallery/gallery.php:440
+#, php-format
+msgid "The recently uploaded image to %s has been approved. From now, you image is online and available to site visitors."
+msgstr "De recent geuploade afbeelding naar %s is goedgekeurd. Vanaf nu staat je afbeelding online en is zichtbaar voor andere gebruikers."
+
+#: components/gallery/gallery.php:441
+msgid "Thanks for uploading your picture for sharing!"
+msgstr "Bedankt voor het uploaden van je afbeelding!"
+
+#: components/gallery/gallery.php:450
+msgid "Your uploaded image has been rejected"
+msgstr "je geuploade afbeelding is afgewezen"
+
+#: components/gallery/gallery.php:452
+#, php-format
+msgid "The recently uploaded image to %s has been rejected. Probably this is because the image does not follow the site rules."
+msgstr "De recent geuplaode afbeelding naar %s is afgewezen. Waarschijnlijk voldoet de afbeelding niet aan de regels van de site."
+
+#: components/gallery/gallery.php:453
+msgid "Please, try to upload a different new picture."
+msgstr "Probeer een andere nieuwe afbeelding aub."
+
+#: components/gallery/gallery.php:533
+#: components/login/login.php:141
+msgid "File uploaded."
+msgstr "Bestand geupload."
+
+#: components/gallery/gallery.php:538
+msgid "Thumbnail created."
+msgstr "Thumbnail gecreëerd"
+
+#: components/gallery/gallery.php:541
+msgid "Thumbnail error"
+msgstr "Thumbnail foutmelding"
+
+#: components/gallery/gallery.php:546
+msgid "Avatar created."
+msgstr "Avatar gecreëerd"
+
+#: components/gallery/gallery.php:549
+msgid "Avatar error"
+msgstr "Avatar foutmelding"
+
+#: components/gallery/gallery.php:573
+msgid "Please moderate user gallery"
+msgstr "Gelieve de gebruikers galerij te modereren"
+
+#: components/gallery/gallery.php:575
+#, php-format
+msgid "A new image has been uploaded to the gallery for %s"
+msgstr "Een nieuwe afbeelding is geupload naar de gallerij van %s"
+
+#: components/gallery/gallery.php:576
+msgid "Please, moderate it at"
+msgstr "Gelieve te modereren bij"
+
+#: components/gallery/gallery.php:582
+msgid "Upload error"
+msgstr "Upload foutmelding"
+
+#: components/gallery/gallery.php:586
+msgid "No file received. Trying to send a file too big?"
+msgstr "Geen bestand ontvangen. Probeer je een te grote afbeelding te uploaden?"
+
+#: components/gallery/gallery.php:629
+msgid "Edit Photo Gallery"
+msgstr "Bewerk foto galerij"
+
+#: components/gallery/gallery.php:674
+#, php-format
+msgid "View all user pictures [%d]"
+msgstr "Bekijk alle afbeeldingen [%d]"
+
+#: components/gallery/gallery.php:696
+#, php-format
+msgid "To see pictures from other users, you have to load at least one picture to <a href=\"%s\">your gallery</a>."
+msgstr "Om afbeeldingen van andere gebruikers te zien, moet je tenminste een afbeelding hebben gezet in <a href=\"%s\">je galerij</a>."
+
+#: components/gallery/gallery.php:791
+#: components/login/login.php:289
+#: components/login/login.php:371
+msgid "Title:"
+msgstr "Titel:"
+
+#: components/gallery/gallery.php:792
+#: components/login/login.php:290
+#: components/login/login.php:372
+msgid "Show Avatars"
+msgstr "Avatars"
+
+#: components/gallery/gallery.php:793
+#: components/login/login.php:291
+#: components/login/login.php:373
+msgid "Avatar size:"
+msgstr "Avatar afmeting:"
+
+#: components/gallery/gallery.php:794
+#: components/login/login.php:292
+#: components/login/login.php:374
+msgid "Number of users:"
+msgstr "Aantal gebruikers:"
+
+#: components/gallery/gallery.php:795
+#: components/login/login.php:293
+#: components/login/login.php:375
+#, php-format
+msgid "(At most %d)"
+msgstr "(Minimaal %d)"
+
+#: components/gallery/gallery.php:966
+msgid "Local Anonymous <em>(Defined in Community Gallery settings)</em>"
+msgstr "Lokaal anoniem <em>(In te stellen in de Comminty galerij instellingen)</em>"
+
+#: components/gallery/user.php:57
+msgid "Upload a new picture"
+msgstr "Upload een nieuwe afbeelding"
+
+#: components/gallery/user.php:62
+#: components/login/admin.php:59
+msgid "Upload new image:"
+msgstr "Upload nieuwe afbeelding:"
+
+#: components/gallery/user.php:70
+msgid "Upload Image"
+msgstr "Upload afbeelding"
+
+#: components/gallery/user.php:77
+#, php-format
+msgid "Maximum accepted sizes are %1$s and %2$s megapixels."
+msgstr "Maximaal geaccepteerde grootte is %1$s en %2$s megapixels."
+
+#: components/gallery/user.php:79
+#: components/gallery/user.php:86
+#, php-format
+msgid "The upload limit is set to %d images."
+msgstr "De maximaal te uploaden afbeeldingen is %d."
+
+#: components/gallery/user.php:85
+msgid "You already have uploaded the maximum allowed images."
+msgstr "Je hebt het maximale aantal foto's bereikt."
+
+#: components/gallery/user.php:100
+msgid "Uploaded Images"
+msgstr "Geuploade afbeeldingen"
+
+#: components/gallery/user.php:105
+#: components/gallery/user.php:156
+msgid "ID"
+msgstr "ID"
+
+#: components/gallery/user.php:106
+#: components/gallery/user.php:157
+msgid "Name"
+msgstr "Name"
+
+#: components/gallery/user.php:107
+#: components/gallery/user.php:158
+msgid "Avatar"
+msgstr "Avatar"
+
+#: components/gallery/user.php:108
+#: components/gallery/user.php:159
+msgid "Caption"
+msgstr "Bijschrift"
+
+#: components/gallery/user.php:109
+#: components/gallery/user.php:160
+msgid "Main Picture"
+msgstr "Hoofd afbeelding"
+
+#: components/gallery/user.php:110
+#: components/gallery/user.php:161
+msgid "Is Avatar"
+msgstr "Je Avatar"
+
+#: components/gallery/user.php:111
+#: components/gallery/user.php:162
+msgid "Moderation"
+msgstr "Moderatie"
+
+#: components/gallery/user.php:112
+#: components/gallery/user.php:163
+msgid "Delete"
+msgstr "Verwijder"
+
+#: components/gallery/user.php:124
+#: components/gallery/user.php:142
+msgid "Pending"
+msgstr "Oplopend"
+
+#: components/gallery/user.php:126
+#: components/gallery/user.php:143
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: components/gallery/user.php:128
+#: components/gallery/user.php:144
+msgid "Rejected"
+msgstr "Afgewezen"
+
+#: components/gallery/user.php:132
+#, php-format
+msgid "Image Preview %d"
+msgstr "Afbeelding voorbeeld %d"
+
+#: components/gallery/user.php:132
+msgid "View Larger"
+msgstr "Bekijk groter"
+
+#: components/login/admin.php:38
+msgid "Login Form Settings"
+msgstr "Login formulier instellingen"
+
+#: components/login/admin.php:48
+msgid "Login form image"
+msgstr "Login formulier afbeelding"
+
+#: components/login/admin.php:52
+msgid "Current login image:"
+msgstr "Huidige login afbeelding:"
+
+#: components/login/admin.php:62
+msgid "Recommended size: 326x67 pixels. The uploaded image will be proportionally resized to 326 pixels wide."
+msgstr "Aanbevolen afmeting: 326x67 pixels. De geuploade afbeelding wordt proportioneel verkleint tot 326 pixels breed."
+
+#: components/login/login.php:75
+msgid "List of latest registered users."
+msgstr "Geregistreerde gebruikers"
+
+#: components/login/login.php:80
+msgid "Latest users that accessed the site."
+msgstr "Laatste gebruiker die op de site is geweest."
+
+#: components/login/login.php:81
+#: components/login/login.php:82
+msgid "Logged in users"
+msgstr "Ingelogde gebruikers"
+
+#: components/login/login.php:92
+msgid "Login Form"
+msgstr "Login formulier"
+
+#: components/login/login.php:146
+msgid "No file received."
+msgstr "Geen afbeelding ontvangen."
+
+#: framework/formating.php:38
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: framework/plugins.php:483
+#, php-format
+msgid "The active plugin %s is not compatible with your WordPress version."
+msgstr "De actieve plugin %s ondersteunt je huidige Wordpress versie niet."
+
+#: framework/plugins.php:485
+#, php-format
+msgid "WordPress %s is required to run this plugin."
+msgstr "WordPress %s is vereist om deze plugin te laten werken."
+
+#: framework/plugins.php:525
+msgid "Standard sidebar functions are not present."
+msgstr "Standaard zijbalk functies zijn niet aanwezig."
+
+#: framework/plugins.php:526
+#, php-format
+msgid "It is required to use the standard sidebar to run %s"
+msgstr "De zijbalk is vereist voor een correcte werking van %s"
+
+#: framework/upload.php:2086
+msgid "File error. Please try again."
+msgstr "Bestand foutmelding. Probeer opnieuw."
+
+#: framework/upload.php:2087
+msgid "Local file doesn't exist."
+msgstr "Lokaal bestand bestaat niet."
+
+#: framework/upload.php:2088
+msgid "Local file is not readable."
+msgstr "Lokaal bestand is niet leesbaar."
+
+#: framework/upload.php:2089
+msgid "File upload error (the uploaded file exceeds the upload_max_filesize directive in php.ini)."
+msgstr "Bestand upload foutmelding (het geuploade bestand overschrijdt de upload_max_filesize aangegeven in php.ini)."
+
+#: framework/upload.php:2090
+msgid "File upload error (the uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the html form)."
+msgstr "Bestand upload foutmelding (het geuploade bestand overschrijdt de MAX_FILE_SIZE aangegeven in het html formulier)."
+
+#: framework/upload.php:2091
+msgid "File upload error (the uploaded file was only partially uploaded)."
+msgstr "Bestand upload foutmelding (het geuploade bestand is slechts deels geupload)."
+
+#: framework/upload.php:2092
+msgid "File upload error (no file was uploaded)."
+msgstr "Bestand upload foutmelding (er is geen bestand geupload)."
+
+#: framework/upload.php:2093
+msgid "File upload error (unknown error code)."
+msgstr "Bestand upload foutmelding (onbekende foutmelding)."
+
+#: framework/upload.php:2094
+msgid "File upload error. Please try again."
+msgstr "Bestand upload foutmelding. Probeer opnieuw."
+
+#: framework/upload.php:2095
+msgid "File too big."
+msgstr "Bestand te groot."
+
+#: framework/upload.php:2096
+msgid "MIME type can't be detected."
+msgstr "MIME type kan niet gedetecteerd worden."
+
+#: framework/upload.php:2097
+msgid "Incorrect type of file."
+msgstr "Incorrect bestandstype."
+
+#: framework/upload.php:2098
+msgid "Image too wide."
+msgstr "Afbeelding te breed."
+
+#: framework/upload.php:2099
+msgid "Image too narrow."
+msgstr "Afbeelding te smal."
+
+#: framework/upload.php:2100
+msgid "Image too high."
+msgstr "Afbeelding te hoog."
+
+#: framework/upload.php:2101
+msgid "Image too short."
+msgstr "Afbeelding te laag."
+
+#: framework/upload.php:2102
+msgid "Image ratio too high (image too wide)."
+msgstr "Afbeelding ratio te groot (afbeelding te breed)."
+
+#: framework/upload.php:2103
+msgid "Image ratio too low (image too high)."
+msgstr "Afbeelding ratio te laag (afbeelding te hoog)."
+
+#: framework/upload.php:2104
+msgid "Image has too many pixels."
+msgstr "Afbeelding heeft een te hoge resolutie."
+
+#: framework/upload.php:2105
+msgid "Image has not enough pixels."
+msgstr "Afbeelding een te kleine resolutie"
+
+#: framework/upload.php:2106
+msgid "File not uploaded. Can't carry on a process."
+msgstr "Afbeelding niet geupload. Kan proces niet voortzetten."
+
+#: framework/upload.php:2107
+#, php-format
+msgid "%s already exists. Please change the file name."
+msgstr "%s bestaat al. Verander de bestandsnaam."
+
+#: framework/upload.php:2108
+msgid "No correct temp source file. Can't carry on a process."
+msgstr "Geen correcttijdelijk bestand. Kan proces niet voortzetten."
+
+#: framework/upload.php:2109
+msgid "No correct uploaded source file. Can't carry on a process."
+msgstr "Geen correct geupload bestand. Kan proces niet voortzetten."
+
+#: framework/upload.php:2110
+msgid "Destination directory can't be created. Can't carry on a process."
+msgstr "Doelmap kan niet gemaakt worden. Kan proces niet voortzetten."
+
+#: framework/upload.php:2111
+msgid "Destination directory doesn't exist. Can't carry on a process."
+msgstr "Doelmap bestaat niet. Kan proces niet voortzetten."
+
+#: framework/upload.php:2112
+msgid "Destination path is not a directory. Can't carry on a process."
+msgstr "Doel is geen bestandsmap. Kan proces niet voortzetten."
+
+#: framework/upload.php:2113
+msgid "Destination directory can't be made writeable. Can't carry on a process."
+msgstr "Doelmap kan niet schrijfbaar gemaakt worden. Kan proces niet voortzetten."
+
+#: framework/upload.php:2114
+msgid "Destination path is not a writeable. Can't carry on a process."
+msgstr "Doelmap is niet schrijfbaar. Kan proces niet voortzetten."
+
+#: framework/upload.php:2115
+msgid "Can't create the temporary file. Can't carry on a process."
+msgstr "Kan tijdelijk bestand niet creeeren. Kan proces niet voortzetten."
+
+#: framework/upload.php:2116
+msgid "Source file is not readable. Can't carry on a process."
+msgstr "Doelbestand is niet schrijfbaar. Kan proces niet voortzetten."
+
+#: framework/upload.php:2117
+#, php-format
+msgid "No create from %s support."
+msgstr "Niet gecreerd van %s support."
+
+#: framework/upload.php:2118
+#, php-format
+msgid "Error in creating %s image from source."
+msgstr "Foutmelding in aanmaken %s afbeelding van bronlocatie."
+
+#: framework/upload.php:2119
+msgid "Can't read image source. Not an image?."
+msgstr "Kan de bronmap niet lezen. Is het geen afbeelding?"
+
+#: framework/upload.php:2120
+msgid "GD doesn't seem to be present."
+msgstr "GD blijkt niet aanwezig te zijn."
+
+#: framework/upload.php:2121
+#, php-format
+msgid "No create from %s support, can't read watermark."
+msgstr "Niet gecreerd van %s support, kan watermerk niet lezen."
+
+#: framework/upload.php:2122
+#, php-format
+msgid "No %s read support, can't create watermark."
+msgstr "Geen %s support, kan watermerk niet creeëren."
+
+#: framework/upload.php:2123
+msgid "Unknown image format, can't read watermark."
+msgstr "Onbekend afbeelding formaat, kan watermerk niet lezen"
+
+#: framework/upload.php:2124
+#, php-format
+msgid "No %s create support."
+msgstr "Geen gecreerd %s support."
+
+#: framework/upload.php:2125
+msgid "No conversion type defined."
+msgstr "Geen conversie type gedefinieerd."
+
+#: framework/upload.php:2126
+msgid "Error copying file on the server. copy() failed."
+msgstr "Foutmelding bij het kopieren van het bestand op de server. Kopieren() mislukt."
+
+#: framework/upload.php:2127
+msgid "Error reading the file."
+msgstr "Fout in het lezen van het bestand."
+
+#: lang/additional-strings.php:4
+msgid "Manages public profiles pages."
+msgstr "Beheer publieke profielen pagina's"
+
+#: lang/additional-strings.php:9
+msgid "Manages user photo galleries for User Community."
+msgstr "Beheer je foto galerij"
+
+#: lang/additional-strings.php:12
+msgid "Custom Login Form"
+msgstr "Eigen login formulier"
+
+#: lang/additional-strings.php:13
+msgid "Configures custom styles, links and logo in the login form."
+msgstr "Configureer eigen stijlen, links en logo op het login formulier."
+
+#~ msgid "Settings Updated."
+#~ msgstr "Instellingen opgeslagen"
+#~ msgid "Photo galleries:"
+#~ msgstr "Foto gallerijen"
+

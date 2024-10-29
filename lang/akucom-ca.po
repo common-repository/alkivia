@@ -1,0 +1,1231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alkivia Open Community\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-06 23:08+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jordi Canals <devel@jcanals.cat>\n"
+"Language-Team: Jordi Canals | http://alkivia.org <devel@jcanals.cat>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: alkivia.php:63
+msgid "Warning:"
+msgstr "Atenció:"
+
+#: alkivia.php:64
+#, php-format
+msgid "The active plugin %s is not compatible with your PHP version."
+msgstr "L'extensió activa %s no és compatible amb la teva versió de PHP."
+
+#: alkivia.php:65
+#, php-format
+msgid "%s is required for this plugin."
+msgstr "Es requereix %s per aquesta extensió."
+
+#: components/activity/activity.php:64
+msgid "the post"
+msgstr "l'apunt"
+
+#: components/activity/activity.php:64
+msgid "the page"
+msgstr "la pàgina"
+
+#: components/activity/activity.php:65
+#, php-format
+msgid "%1$s added %2$s titled %3$s"
+msgstr "%1$s ha afegit %2$s %3$s"
+
+#: components/activity/activity.php:65
+#, php-format
+msgid "%1$s updated %2$s %3$s"
+msgstr "%1$s ha actualitzat %2$s %3$s"
+
+#: components/activity/activity.php:83
+#, php-format
+msgid "%1$s added a comment to %2$s"
+msgstr "%1$s ha afegit un comentari a %2$s"
+
+#: components/activity/admin.php:43
+msgid "Activity Wall Settings"
+msgstr "Opcions del mur d'activitat"
+
+#: components/activity/admin.php:53
+msgid "User Activity Options"
+msgstr "Opcions d'activitat d'usuari"
+
+#: components/activity/admin.php:57
+msgid "User template:"
+msgstr "Plantilla d'usuari:"
+
+#: components/activity/admin.php:69
+msgid "This template is used on the users wall page.<br />You can upload additional templates to the \"templates\" directory."
+msgstr "Aquesta plantilla s'utilitza per la pàgina d'activitat d'usuari.<br />Pots pujar plantilles addicionals al directori \"templates\"."
+
+#: components/activity/admin.php:74
+#: components/profile/admin.php:135
+msgid "Avatar Size:"
+msgstr "Mida de l'avatar:"
+
+#: components/activity/admin.php:78
+#: components/gallery/admin.php:205
+#: components/gallery/admin.php:217
+#: components/gallery/admin.php:227
+#: components/profile/admin.php:139
+msgid "pixels"
+msgstr "píxels"
+
+#: components/activity/admin.php:78
+msgid "This size is only used on the activity list."
+msgstr "Aquesta mida només s'utilitza a la llista d'activitat."
+
+#: components/activity/admin.php:83
+msgid "Event timeout:"
+msgstr "Caducitat d'accions:"
+
+#: components/activity/admin.php:87
+msgid "minutes"
+msgstr "minuts"
+
+#: components/activity/admin.php:87
+msgid "The minimum time between two actions on the same object to be recorded again, when doing the same action by the same user."
+msgstr "El temps mínim entre dues accions al mateix objecte per gravar un nou registre, quan és la mateixa acció del mateix usuari."
+
+#: components/activity/admin.php:92
+msgid "List items:"
+msgstr "Llistar elements:"
+
+#: components/activity/admin.php:96
+msgid "Maximum number of items to be listed on any activity list."
+msgstr "Número màxim d'elements que es mostren a qualsevol llista d'activitat."
+
+#: components/activity/admin.php:105
+msgid "Global activity page"
+msgstr "Pàgina d'activitat global"
+
+#: components/activity/admin.php:110
+msgid "Global Activity Page:"
+msgstr "Página d'activitat global:"
+
+#: components/activity/admin.php:115
+#: components/gallery/admin.php:74
+#: components/profile/admin.php:211
+msgid "Disabled"
+msgstr "Desactivat"
+
+#: components/activity/admin.php:118
+msgid "The page where to show a global activity wall. <strong>You have to create this page first.</strong>"
+msgstr "La pàgina on mostrar la llista global d'activitat. <strong>Has de crear-la abans.</strong>"
+
+#: components/activity/admin.php:123
+msgid "Global template:"
+msgstr "Plantilla global:"
+
+#: components/activity/admin.php:135
+msgid "This template is used on the system global activity page.<br />You can upload additional templates to the \"templates\" directory."
+msgstr "Aquesta plantilla s'utilitza per la pàgina d'activitat global del sistema.<br />Pots pujar plantilles addicionals al directori \"templates\"."
+
+#: components/activity/admin.php:145
+#: components/gallery/admin.php:276
+#: components/gallery/user.php:185
+#: components/login/admin.php:71
+#: components/profile/admin.php:294
+msgid "Save Changes"
+msgstr "Desa els canvis"
+
+#: components/activity/component.php:133
+msgid "Activity Wall"
+msgstr "Mur d'activitat"
+
+#: components/activity/component.php:144
+#: components/gallery/component.php:335
+#: components/gallery/component.php:424
+#: components/gallery/component.php:436
+#: components/login/component.php:113
+msgid "What do you think you're doing?!?"
+msgstr "Que et penses que fas?"
+
+#: components/activity/component.php:401
+#: components/gallery/component.php:233
+msgid "User with this name not found."
+msgstr "No s'ha trobat un usuari amb aquest nom."
+
+#: components/activity/component.php:447
+#: components/gallery/component.php:296
+msgid "Manage your photo gallery"
+msgstr "Gestiona la teva galeria fotogràfica"
+
+#: components/activity/component.php:449
+#: components/gallery/component.php:298
+msgid "Manage this user gallery"
+msgstr "Administra aquesta galeria."
+
+#: components/gallery/admin.php:39
+msgid "Photo Gallery Settings"
+msgstr "Opcions de la Galeria Fotogràfica"
+
+#: components/gallery/admin.php:49
+msgid "General Settings"
+msgstr "Opcions generals"
+
+#: components/gallery/admin.php:53
+msgid "Gallery template:"
+msgstr "Plantilla per la galeria:"
+
+#: components/gallery/admin.php:65
+msgid "This template is used on the gallery page.<br />You can upload additional templates to the \"templates\" directory."
+msgstr "Aquesta plantilla s'utilitza per la galleri d'imatges.<br />Pots pujar plantilles addicionals al directori \"templates\"."
+
+#: components/gallery/admin.php:70
+msgid "Author Thumbnail:"
+msgstr "Miniatura d'autor:"
+
+#: components/gallery/admin.php:75
+msgid "Left Align"
+msgstr "Alineació a l'esquerra"
+
+#: components/gallery/admin.php:76
+msgid "Right Align"
+msgstr "Alineació a la dreta"
+
+#: components/gallery/admin.php:78
+msgid "Show the author thumbnail on each post. Only works if author have an aproved image."
+msgstr "Mostrar la miniatura dl'autor a cada article. Només funciona si l'autor té una imatge aprovada."
+
+#: components/gallery/admin.php:83
+msgid "Newest images first:"
+msgstr "Imatges més recents primer:"
+
+#: components/gallery/admin.php:86
+msgid "Show recently uploaded images first."
+msgstr "Mostra primer les imatges més recents."
+
+#: components/gallery/admin.php:91
+msgid "Galley Avatars:"
+msgstr "Avatars de la Galeria:"
+
+#: components/gallery/admin.php:95
+msgid "Replace Gravatars by user gallery avatars."
+msgstr "Substituir Gravatars pels avatars de la galeria d'usuari."
+
+#: components/gallery/admin.php:98
+msgid "If not local avatar, look for it at Gravatar."
+msgstr "Si no hi ha un Avatar local, cerca'l a Gravatar."
+
+#: components/gallery/admin.php:100
+msgid "Avatars are shown or hidden depenmding on Discussion Settings for WordPress."
+msgstr "Els avatars es mostren o amaguen depenent de les opcions de discussió de WordPress."
+
+#: components/gallery/admin.php:105
+msgid "Anonymous avatar URL:"
+msgstr "URL de l'avatar anònim:"
+
+#: components/gallery/admin.php:109
+msgid "A valid avatar URL. Must be a full URL to an small image. Leaving it empty will reset to a default anonymous avatar."
+msgstr "Una URL vàlida d'avatar. Ha de ser una adreça URL completa a una imatge petita. Si ho deixes buit, s'omplirà amb l'avatar anònim predeterminat."
+
+#: components/gallery/admin.php:118
+msgid "Privacy"
+msgstr "Privacitat"
+
+#: components/gallery/admin.php:122
+msgid "Hide Pictures:"
+msgstr "Amaga imatges:"
+
+#: components/gallery/admin.php:126
+msgid "User has to load at least one image to see other users pictures."
+msgstr "L'usuari ha de carregar com a mínim una imatge per veure les imatges dels altres."
+
+#: components/gallery/admin.php:135
+msgid "User Limits"
+msgstr "Limits d'Usuari"
+
+#: components/gallery/admin.php:139
+msgid "Max. Upload images:"
+msgstr "Màxim d'imatges pujades:"
+
+#: components/gallery/admin.php:143
+msgid "Maximum number of images an user can upload."
+msgstr "Número màxim d'imatges que un usuari por pujar."
+
+#: components/gallery/admin.php:148
+msgid "Concurrent Upload:"
+msgstr "Pujades concurrents:"
+
+#: components/gallery/admin.php:158
+msgid "Number of images an user can upload simultaneously."
+msgstr "Número d'imatges que un usuari pot carregar simultaniament."
+
+#: components/gallery/admin.php:159
+msgid "The maximum megabytes that can be uploaded depends on the post_max_size PHP directive."
+msgstr "El màxim de megabites que poden ser carregats simultàniament depèn de la direcvtiva PHP  post_max_size."
+
+#: components/gallery/admin.php:164
+msgid "Max. Image size:"
+msgstr "Mida màxima de càrrega:"
+
+#: components/gallery/admin.php:168
+#, php-format
+msgid "Maximum size for each image file an user can upload in Kb. System max is: %s"
+msgstr "Mida màxima (en Kb) de cada imatge que un usuari por pujar. El màxim del sistema es: %s"
+
+#: components/gallery/admin.php:173
+msgid "Max. Image megapixels:"
+msgstr "Màxim de megapíxels per imatge:"
+
+#: components/gallery/admin.php:176
+#: components/gallery/admin.php:185
+msgid "Megapixels"
+msgstr "Megapixels"
+
+#: components/gallery/admin.php:177
+msgid "Maximum megapixels an image can have to be processed.<br />More megapixels, more memory needed (about 9 Mb processing memory per megapixel)"
+msgstr "Megapíxels màxims que una imatge pot tenir per a ser processada.<br />A més megapíxels es necessita més memòria (Al voltant de 9 Mb de memòria per megapíxel)."
+
+#: components/gallery/admin.php:182
+msgid "Min. Image megapixels:"
+msgstr "Mínim de megapíxels per imatge:"
+
+#: components/gallery/admin.php:186
+msgid "Minimum megapixels an image must have to be processed. This is used to prevent users sending too small pictures.<br />(Images are resized to setings sizes)"
+msgstr "Mínim de megapíxels que la imatge ha de tenir per ser processada. Això s'utilitza per prevenir que l'usuari carregui imatges massa petites.<br />(Les imatges es redimensionen a les mides configurades)"
+
+#: components/gallery/admin.php:195
+msgid "Image Sizes"
+msgstr "Mides de la imatge"
+
+#: components/gallery/admin.php:199
+msgid "Profile Image size:"
+msgstr "Mida de la imatge del perfil:"
+
+#: components/gallery/admin.php:202
+msgid "Use WordPress large size"
+msgstr "Utilitza la mida gran de WordPress"
+
+#: components/gallery/admin.php:203
+#: components/gallery/admin.php:215
+msgid "Use this settings"
+msgstr "Utilitza aquests paràmetres:"
+
+#: components/gallery/admin.php:204
+#: components/gallery/admin.php:216
+msgid "Width"
+msgstr "Amplada"
+
+#: components/gallery/admin.php:205
+#: components/gallery/admin.php:217
+msgid "Height"
+msgstr "Alçada"
+
+#: components/gallery/admin.php:206
+msgid "Images are always resized to this settings and this is the size that shows in the user profile page."
+msgstr "Les imatges sempre es redimensionen a aquestes mides i son les que s'utilitzan per mostrar les imatges al perfil de l'usuari."
+
+#: components/gallery/admin.php:211
+msgid "Thumbnails size:"
+msgstr "Mida de la miniatura:"
+
+#: components/gallery/admin.php:214
+msgid "Use WordPress thumbnail size"
+msgstr "Utilitza la mida de miniatures de WordPress"
+
+#: components/gallery/admin.php:218
+msgid "Crop at exact size"
+msgstr "Retalla a la mida exacte"
+
+#: components/gallery/admin.php:219
+msgid "This is the size for the user gallery thumbnails."
+msgstr "Aquesta és la mida per les miniatures de la galria d'usuari."
+
+#: components/gallery/admin.php:224
+msgid "Avatar max size:"
+msgstr "Mida màxima de l'avatar:"
+
+#: components/gallery/admin.php:228
+msgid "It is recommended not to set this too big, site performance will be affected."
+msgstr "Es rcomana no posar un valor massa gran. El rendiment del lloc pot veures afectat."
+
+#: components/gallery/admin.php:238
+msgid "Watermarks"
+msgstr "Marques d'aigua"
+
+#: components/gallery/admin.php:242
+msgid "Images Watermark:"
+msgstr "Marca d'aigua per les imatges:"
+
+#: components/gallery/admin.php:249
+msgid "Watermark large pictures"
+msgstr "Marca a l'aigua les imatges de perfil"
+
+#: components/gallery/admin.php:254
+msgid "with this image"
+msgstr "amb aquesta imatge"
+
+#: components/gallery/admin.php:264
+msgid "Upload new watermark:"
+msgstr "Puja una nova marca a l'aigua:"
+
+#: components/gallery/admin.php:267
+msgid "The uploaded image will be proportionally resized to 1/3 of profile images width."
+msgstr "La imatge pujada es redimensionarà a 1/3 de l'amplada de les imatges del perfil."
+
+#: components/gallery/component.php:179
+#: components/gallery/component.php:794
+#, php-format
+msgid "To see pictures from other users, you have to load at least one picture to <a href=\"%s\">your gallery</a>."
+msgstr "Per veure imatges dels altres usuaris, has de carregar com a mínim una fotografia a <a href=\"%s\">la teva galeria</a>."
+
+#: components/gallery/component.php:211
+msgid "Photo Gallery"
+msgstr "Galeria fotogràfica"
+
+#: components/gallery/component.php:213
+msgid "Your Gallery"
+msgstr "La teva Galeria"
+
+#: components/gallery/component.php:405
+#: components/login/component.php:153
+msgid "Error"
+msgstr "Error "
+
+#: components/gallery/component.php:433
+msgid "Managing Gallery for"
+msgstr "Administrant la Galeria de "
+
+#: components/gallery/component.php:444
+msgid "Manage your Photo Gallery"
+msgstr "Administra la teva galeria fotogràfica"
+
+#: components/gallery/component.php:445
+msgid "Your"
+msgstr "La teva"
+
+#: components/gallery/component.php:505
+msgid "Your uploaded image has been approved"
+msgstr "S'ha aprovat la teva imatge"
+
+#: components/gallery/component.php:507
+#, php-format
+msgid "The recently uploaded image to %s has been approved. From now, you image is online and available to site visitors."
+msgstr "La imatge que has carregat darrerament a %s ha estat aprovada. Des d'ara, la teva imatge està disponible pels visitants del lloc."
+
+#: components/gallery/component.php:508
+msgid "Thanks for uploading your picture for sharing!"
+msgstr "Gràcies per carregar la teva imatge per compartir!"
+
+#: components/gallery/component.php:528
+msgid "Your uploaded image has been rejected"
+msgstr "S'ha rebutjat la teva imatge"
+
+#: components/gallery/component.php:530
+#, php-format
+msgid "The recently uploaded image to %s has been rejected. Probably this is because the image does not follow the site rules."
+msgstr "La imatge que darrerament has carregat a %s ha estat rebutjada. Probablement, això és que la imatge no acompleix les regles del lloc."
+
+#: components/gallery/component.php:531
+msgid "Please, try to upload a different new picture."
+msgstr "Si et plau, prova a carregar una imatge diferent."
+
+#: components/gallery/component.php:621
+#, php-format
+msgid "File %d uploaded."
+msgstr "Arxiu %d pujat."
+
+#: components/gallery/component.php:626
+#, php-format
+msgid "Thumbnail %d created."
+msgstr "Miniatura %d creada."
+
+#: components/gallery/component.php:628
+#, php-format
+msgid "Thumbnail %d error"
+msgstr "Error en la miniatura %d"
+
+#: components/gallery/component.php:633
+#, php-format
+msgid "Avatar %d created."
+msgstr "Avatar %d creat."
+
+#: components/gallery/component.php:635
+#, php-format
+msgid "Avatar %d error"
+msgstr "Error en l'avatar %d"
+
+#: components/gallery/component.php:670
+msgid "Please moderate user gallery"
+msgstr "Si et plau. modera galeria d'usuari"
+
+#: components/gallery/component.php:672
+#, php-format
+msgid "A new image has been uploaded to the gallery for %s"
+msgstr "S'ha carregat una nova imatge a la galeria de %s"
+
+#: components/gallery/component.php:673
+msgid "Please, moderate it at"
+msgstr "Si et plau. modera la galeria a"
+
+#: components/gallery/component.php:678
+#, php-format
+msgid "Image %d error"
+msgstr "Error en la imatge %d"
+
+#: components/gallery/component.php:725
+msgid "Edit Photo Gallery"
+msgstr "Editar Galeria Forogràfica"
+
+#: components/gallery/component.php:771
+#, php-format
+msgid "More user pictures [%d]"
+msgstr "Més imatges [%d]"
+
+#: components/gallery/component.php:999
+msgid "Local Anonymous <em>(Defined in Alkivia Gallery settings)</em>"
+msgstr "Anònim Local <em>(Definit a les opcions de la Galeria)</em>"
+
+#: components/gallery/gallery.php:60
+#, php-format
+msgid "%s uploaded a new image to the user gallery."
+msgstr "%s ha carregat una nova imatge a la seva galleria."
+
+#: components/gallery/updates.php:45
+msgid "Gallery Updates"
+msgstr "Noves Fotos"
+
+#: components/gallery/updates.php:47
+msgid "Shows the latest updated user galleries."
+msgstr "Mostra les darreres galeries actualitzades."
+
+#: components/gallery/user.php:58
+msgid "Upload new pictures"
+msgstr "Puja noves imatges"
+
+#: components/gallery/user.php:63
+msgid "You already have uploaded the maximum allowed images."
+msgstr "Ja has pujat el màxim nombre d'imatges permeses."
+
+#: components/gallery/user.php:64
+#: components/gallery/user.php:72
+#, php-format
+msgid "The upload limit is set to %d images."
+msgstr "El límit de pujades és de %d imatges."
+
+#: components/gallery/user.php:70
+#, php-format
+msgid "Maximum accepted sizes are %1$s and %2$s megapixels."
+msgstr "Les mides màximes de les imatges acceptades son %1$s i %2$s megapíxels."
+
+#: components/gallery/user.php:81
+#, php-format
+msgid "Upload image [%d]:"
+msgstr "Puja Imatge [%d]:"
+
+#: components/gallery/user.php:91
+msgid "Upload Images"
+msgstr "Carregar Imatges"
+
+#: components/gallery/user.php:109
+msgid "Uploaded Images"
+msgstr "Imatges Pujades"
+
+#: components/gallery/user.php:114
+#: components/gallery/user.php:169
+msgid "ID"
+msgstr "ID"
+
+#: components/gallery/user.php:115
+#: components/gallery/user.php:170
+msgid "Name"
+msgstr "Nom"
+
+#: components/gallery/user.php:116
+#: components/gallery/user.php:171
+msgid "Avatar"
+msgstr "Avatar"
+
+#: components/gallery/user.php:117
+#: components/gallery/user.php:172
+msgid "Caption"
+msgstr "Llegenda"
+
+#: components/gallery/user.php:118
+#: components/gallery/user.php:173
+msgid "Main Picture"
+msgstr "Imatge Principal"
+
+#: components/gallery/user.php:119
+#: components/gallery/user.php:174
+msgid "Is Avatar"
+msgstr "És Avatar"
+
+#: components/gallery/user.php:120
+#: components/gallery/user.php:175
+msgid "Moderation"
+msgstr "Moderació"
+
+#: components/gallery/user.php:121
+#: components/gallery/user.php:176
+msgid "Delete"
+msgstr "Elimina"
+
+#: components/gallery/user.php:137
+#: components/gallery/user.php:155
+msgid "Pending"
+msgstr "Pendent"
+
+#: components/gallery/user.php:139
+#: components/gallery/user.php:156
+msgid "Approved"
+msgstr "Aprovat"
+
+#: components/gallery/user.php:141
+#: components/gallery/user.php:157
+msgid "Rejected"
+msgstr "Rebutjat"
+
+#: components/gallery/user.php:145
+#, php-format
+msgid "Image Preview %d"
+msgstr "Previsualització d'imatge %d"
+
+#: components/gallery/user.php:145
+msgid "View Larger"
+msgstr "Veure més gran"
+
+#: components/login/admin.php:38
+msgid "Login Form Settings"
+msgstr "Paràmetres de la pàgina d'identificació"
+
+#: components/login/admin.php:48
+msgid "Login form image"
+msgstr "Imatge de la pàgina d'identificació"
+
+#: components/login/admin.php:52
+msgid "Current login image:"
+msgstr "Imatge d'identificació actual:"
+
+#: components/login/admin.php:59
+msgid "Upload new image:"
+msgstr "Puja una nova imatge:"
+
+#: components/login/admin.php:62
+msgid "Recommended size: 326x67 pixels. The uploaded image will be proportionally resized to 326 pixels wide."
+msgstr "La mida recomanada és 326x67 píxels. La imatge pujada es redimensionarà proporcinalment a una amplada de 326 píxels."
+
+#: components/login/component.php:101
+msgid "Login Form"
+msgstr "Identificació"
+
+#: components/login/component.php:151
+msgid "File uploaded."
+msgstr "Arxiu pujat."
+
+#: components/login/component.php:156
+msgid "No file received."
+msgstr "No s'ha rebut cap arxiu."
+
+#: components/login/component.php:159
+msgid "Bad form received."
+msgstr "S'ha rebut un formulari incorrecte."
+
+#: components/login/loggedin.php:46
+msgid "Logged in users"
+msgstr "Accés d'usuaris"
+
+#: components/login/loggedin.php:48
+msgid "Latest users that accessed the site."
+msgstr "Darrers usuaris que han accedit al lloc."
+
+#: components/login/newusers.php:46
+msgid "Registered users"
+msgstr "Usuaris registrats"
+
+#: components/login/newusers.php:48
+msgid "List of latest registered users."
+msgstr "Llista dels darrers usuaris registrats."
+
+#: components/profile/admin.php:43
+msgid "User Profiles Settings"
+msgstr "Paràmetres dels perfils d'usuari"
+
+#: components/profile/admin.php:53
+msgid "Privacy Options"
+msgstr "Opcions de Privacitat"
+
+#: components/profile/admin.php:57
+msgid "Show addresses:"
+msgstr "Mostra les adreces:"
+
+#: components/profile/admin.php:61
+msgid "E-mail"
+msgstr "Correu electrònic"
+
+#: components/profile/admin.php:64
+msgid "AIM"
+msgstr "AIM"
+
+#: components/profile/admin.php:67
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: components/profile/admin.php:70
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+#: components/profile/admin.php:76
+msgid "Show real name:"
+msgstr "Mostra el nom real:"
+
+#: components/profile/admin.php:79
+msgid "First Name"
+msgstr "Nom"
+
+#: components/profile/admin.php:81
+msgid "Last Name"
+msgstr "Cognoms"
+
+#: components/profile/admin.php:82
+msgid "(Last name is only shown if first name is also shown)"
+msgstr "(Els cognoms només es mostren si també es mostra el nom)"
+
+#: components/profile/admin.php:88
+msgid "Show only users with this roles:"
+msgstr "Mostra només els usuaris amb aquests rols:"
+
+#: components/profile/admin.php:105
+msgid "List Options"
+msgstr "Opcions de la llista"
+
+#: components/profile/admin.php:109
+msgid "Disable user list:"
+msgstr "Desactiva la llista:"
+
+#: components/profile/admin.php:112
+msgid "Disable user listing"
+msgstr "Desactiva la llista d'usuaris"
+
+#: components/profile/admin.php:113
+msgid "The page will show edited content with no user list and will be used as holder for user profiles."
+msgstr "La pàgina mostrarà el contingut editat sense llista d'usuaris i també s'utilitzarà com a base pels perfil d'usuari."
+
+#: components/profile/admin.php:118
+msgid "List template:"
+msgstr "Plantilla per llistes:"
+
+#: components/profile/admin.php:130
+msgid "This template is used on the users list page.<br />You can upload additional templates to the \"templates\" directory."
+msgstr "Aquesta plantilla s'utilitza per la pàgina de llista d'usuaris.<br />Pots pujar plantilles addicionals al directori \"templates\"."
+
+#: components/profile/admin.php:139
+msgid "This size is only used on users list."
+msgstr "Aquesta mida només s'utilitza en les llistes d'usuari."
+
+#: components/profile/admin.php:144
+msgid "Order users by:"
+msgstr "Ordena usuaris segons:"
+
+#: components/profile/admin.php:149
+msgid "Display Name"
+msgstr "Nom per mostrar"
+
+#: components/profile/admin.php:152
+msgid "Date Registered"
+msgstr "Data de registre"
+
+#: components/profile/admin.php:155
+msgid "User Login"
+msgstr "Identificador d'usuari"
+
+#: components/profile/admin.php:158
+msgid "User ID"
+msgstr "ID d'usuari"
+
+#: components/profile/admin.php:164
+msgid "Ascending"
+msgstr "Ascendent"
+
+#: components/profile/admin.php:167
+msgid "Descending"
+msgstr "Descendent"
+
+#: components/profile/admin.php:175
+msgid "Number of users per page:"
+msgstr "Número d'usuaris per pàgina:"
+
+#: components/profile/admin.php:187
+msgid "Additional Options"
+msgstr "Opcions Addicionals"
+
+#: components/profile/admin.php:191
+msgid "Profile template:"
+msgstr "Plantilla de perfils:"
+
+#: components/profile/admin.php:203
+msgid "This template is used on the user profile page.<br />You can upload additional templates to the \"templates\" directory."
+msgstr "Aquesta plantilla s'utilitza per la pàgina de perfils d'usuaris.<br />Pots pujar plantilles addicionals al directori \"templates\"."
+
+#: components/profile/admin.php:208
+msgid "Author Link"
+msgstr "Enllaç d'Autor"
+
+#: components/profile/admin.php:212
+msgid "Replace current author link"
+msgstr "Substituir l'enllaç actual d'autor"
+
+#: components/profile/admin.php:213
+msgid "Create new links to profile page"
+msgstr "Crear nous enllaços a la pàgina de perfil"
+
+#: components/profile/admin.php:214
+msgid "Select <strong>replace</strong> if your site shows links to author page when disabled. Select <strong>create</strong> if there are no links to author pages when disabled."
+msgstr "Selecciona <strong>substituir</strong> si el lloc mostra enlaços a les pàgines d'autor quan està desactivat. Selecciona <strong>crear</strong> si no hi ha enllaços a la pàgina d'autor quan està desactivat."
+
+#: components/profile/admin.php:219
+msgid "Comments Link"
+msgstr "Enllaços de Comentaris"
+
+#: components/profile/admin.php:222
+msgid "Replace comments author link"
+msgstr "Substituir l'enllaç dels autors de comentaris"
+
+#: components/profile/admin.php:223
+msgid "This replaces the author comments link to the user profile page if exists"
+msgstr "Aixó substitueix els enllaços dels autors de comentaris "
+
+#: components/profile/admin.php:228
+msgid "Show on profile"
+msgstr "Mostra al perfil"
+
+#: components/profile/admin.php:232
+msgid "Link to author posts page"
+msgstr "Enllaç a la pàgina d'entrades de l'autor"
+
+#: components/profile/admin.php:232
+msgid "(Almost all themes support this)"
+msgstr "(Gaire bé tots els temes ho permeten)"
+
+#: components/profile/admin.php:235
+msgid "Last user posts"
+msgstr "Derrers apunts de l'usuari"
+
+#: components/profile/admin.php:238
+msgid "Last user comments"
+msgstr "Darrers comentaris de l'usuari"
+
+#: components/profile/admin.php:248
+msgid "Custom labels"
+msgstr "Etiquetes personalitzades"
+
+#: components/profile/admin.php:252
+msgid "AIM custom label:"
+msgstr "Etiqueta personalitzada per AIM:"
+
+#: components/profile/admin.php:260
+msgid "YIM custom label:"
+msgstr "Etiqueta personalitzada per YIM:"
+
+#: components/profile/admin.php:268
+msgid "Jabber custom label:"
+msgstr "Etiqueta personalitzada per Jabber:"
+
+#: components/profile/admin.php:277
+msgid "This will change the default labels for your IM addresses in Alkivia and WordPress user profile."
+msgstr "Això cambiarà les etiquetes per defecte de les adreces de MI en les pàgines de perfils d'Alkivia i WordPress."
+
+#: components/profile/admin.php:282
+#, php-format
+msgid "To be changed in the WordPress user profile, this feature requires WordPress 2.8 or higher. To see what to hack to make it run in your version, <a href=\"%s\" target=\"_blank\">read this post</a>."
+msgstr "Per canviar-ho al perfil d'usuari de WordPress, aquesta funció requereix WordPress 2.8 o superior. Per veure que has de modificar a la teva versió, <a href=\"%s\" target=\"_blank\">llegeix aquest article</a>."
+
+#: components/profile/component.php:169
+#: lang/additional-strings.php:31
+msgid "User Profiles"
+msgstr "Perfils d'Usuari"
+
+#: components/profile/component.php:216
+msgid "No users found in this page."
+msgstr "No hi ha usuaris en aquesta pàgina."
+
+#: components/profile/component.php:287
+msgid "Edit your profile"
+msgstr "Edita el teu perfil"
+
+#: components/profile/component.php:289
+msgid "Edit this user"
+msgstr "Edita aquest usuari"
+
+#: components/profile/component.php:648
+msgid "Recent user posts:"
+msgstr "Derrers apunts de l'usuari:"
+
+#: components/profile/component.php:675
+msgid "Latest comments on:"
+msgstr "Darrers comentaris a:"
+
+#: components/profile/component.php:756
+msgid "<strong>ERROR</strong>: This nickname is already in use, please choose another one."
+msgstr "<strong>ERROR</strong>: Aquest àlies ja és en ús. Si et plau, tria'n un altre."
+
+#: components/profile/profiles.php:59
+#, php-format
+msgid "%s updated the profile data."
+msgstr "%s ha actualitzat el seu perfil."
+
+#: components/profile/profiles.php:62
+#, php-format
+msgid "%s selected a new profile image."
+msgstr "%s a canviat la imatge del seu perfil."
+
+#: includes/admin.php:40
+msgid "Alkivia General Settings"
+msgstr "Opcions Generals d'Alkivia"
+
+#: includes/admin.php:55
+msgid "Community Page:"
+msgstr "Pàgina de la Comunitat:"
+
+#: includes/admin.php:60
+msgid "Not set"
+msgstr "Sense valor"
+
+#: includes/admin.php:63
+msgid "The page where to show all community outputs. <strong>You have to create this page first.</strong>"
+msgstr "La pàgina on mostrar tota la informació de la comunitat. <strong>Has de crear-la abans.</strong>"
+
+#: includes/admin.php:76
+msgid "Visibility:"
+msgstr "Visibilitat:"
+
+#: includes/admin.php:79
+msgid "Everyone"
+msgstr "Tothom"
+
+#: includes/admin.php:81
+msgid "Determines if the community pages are available to everyone (public access) or only to registered users."
+msgstr "Determina si les pàgines de la comunitat estàn disponibles a tothom (accés públic) o només a usuaris registrats."
+
+#: includes/alkivia.php:134
+#, php-format
+msgid "Please <a href=\"%s\">Log In</a> to see the content."
+msgstr "Si et plau <a href=\"%s\">Identifica't</a> per veure'n el contingut."
+
+#: includes/alkivia.php:137
+msgid "You have to be registered to access this page."
+msgstr "Has d'estar registrat per accedir aquesta pàgina."
+
+#: includes/alkivia.php:220
+msgid "General"
+msgstr "General"
+
+#: includes/alkivia.php:328
+#, php-format
+msgid "Before start using the plugin %s you have to create and set the page to hold output data."
+msgstr "Abans de començar a utilitzar l'extensió %s has de crear i configurar la pàgina per les dades de sortida."
+
+#: includes/alkivia.php:330
+#, php-format
+msgid "Set now the page holder for %s."
+msgstr "Configura ara la pàgina per %s."
+
+#: includes/users-widget.php:104
+msgid "Title:"
+msgstr "Títol:"
+
+#: includes/users-widget.php:105
+msgid "Show Avatars"
+msgstr "Mostra Avatars"
+
+#: includes/users-widget.php:106
+msgid "Avatar size:"
+msgstr "Mida de l'avatar:"
+
+#: includes/users-widget.php:107
+msgid "Number of users:"
+msgstr "Número d'usuaris:"
+
+#: includes/users-widget.php:108
+#, php-format
+msgid "(At most %d)"
+msgstr "(Màxim %d)"
+
+#: lang/additional-strings.php:32
+msgid "Manages public profiles pages."
+msgstr "Gestiona les pàgines del perfil públic."
+
+#: lang/additional-strings.php:37
+msgid "Manages user photo galleries for Alkivia Open Community."
+msgstr "Gestiona les galeres fotogràfiques de la Comunitat d'Usuaris."
+
+#: lang/additional-strings.php:40
+msgid "Custom Login Form"
+msgstr "Identificació personalitzada"
+
+#: lang/additional-strings.php:41
+msgid "Configures custom styles, links and logo in the login form."
+msgstr "Configura estils personalitzats, enllaços i logo en la identificació."
+
+#: lang/additional-strings.php:45
+msgid "Records user activity into a log and provides an activity wall."
+msgstr "Desa l'activitat de l'usuari en un registre i facilita una llista d'activitat."
+
+#: templates/gallery-default.php:34
+#, php-format
+msgid "%s's Photo Gallery"
+msgstr "Galeria Forogràfica de %s"
+
+#: templates/profile-default.php:55
+#: templates/profile-gallery.php:58
+#: templates/profile-sample.php:61
+#: templates/profile-wall.php:61
+msgid "View this author's posts"
+msgstr "Mostra els apunts fets per aquest autor"
+
+#: templates/profile-default.php:58
+#: templates/profile-gallery.php:61
+#: templates/profile-sample.php:69
+#: templates/profile-wall.php:69
+msgid "General Info"
+msgstr "Informació General"
+
+#: templates/profile-default.php:61
+#: templates/profile-gallery.php:64
+#: templates/profile-sample.php:72
+#: templates/profile-wall.php:72
+msgid "Real Name:"
+msgstr "Nom Real:"
+
+#: templates/profile-default.php:64
+#: templates/profile-gallery.php:67
+#: templates/profile-sample.php:74
+#: templates/profile-wall.php:74
+msgid "Member Role"
+msgstr "Rol del membre"
+
+#: templates/profile-default.php:65
+#: templates/profile-gallery.php:68
+#: templates/profile-sample.php:75
+#: templates/profile-wall.php:75
+#: templates/userlist-default.php:46
+msgid "Member Since"
+msgstr "Membre des de"
+
+#: templates/profile-default.php:69
+#: templates/profile-gallery.php:72
+#: templates/profile-sample.php:55
+#: templates/profile-wall.php:55
+msgid "About me"
+msgstr "Quant a mi"
+
+#: templates/profile-default.php:73
+#: templates/profile-gallery.php:76
+#: templates/profile-sample.php:78
+#: templates/profile-wall.php:78
+msgid "Where to contact"
+msgstr "On contactar:"
+
+#: templates/profile-default.php:78
+#: templates/profile-gallery.php:81
+#: templates/profile-sample.php:81
+#: templates/profile-wall.php:81
+#: templates/userlist-default.php:45
+msgid "Website"
+msgstr "Lloc web"
+
+#: templates/userlist-default.php:43
+msgid "Nickname"
+msgstr "Àlies"
+
+#: templates/userlist-default.php:44
+msgid "Role"
+msgstr "Rol"
+
+#: templates/userlist-sample.php:57
+msgid "My site:"
+msgstr "El meu lloc:"
+
+#: templates/userlist-sample.php:62
+msgid "About Me"
+msgstr "Quant a mi"
+
+#: templates/userwall-default.php:38
+#, php-format
+msgid "%s's Activity Wall"
+msgstr "Mur d'activitat de %s"
+
+#~ msgid "Option blocked by administrator."
+#~ msgstr "Opció desactivada per l'administrador."
+#~ msgid "The active plugin %s is not compatible with your WordPress version."
+#~ msgstr ""
+#~ "L'extensió activa %s no és compatible amb la teva versió de WordPress."
+#~ msgid "WordPress %s is required to run this plugin."
+#~ msgstr "Aquesta extensió requereix com a mínim WordPress %s."
+#~ msgid "Standard sidebar functions are not present."
+#~ msgstr "Les funcions de la barra lateral estàndard no es troben presents."
+#~ msgid "It is required to use the standard sidebar to run %s"
+#~ msgstr "És necessari utilitzar la barra lateral estàndard per executar %s"
+#~ msgid "Activate Components"
+#~ msgstr "Activa Components"
+#~ msgid "Yes"
+#~ msgstr "Sí"
+#~ msgid "No"
+#~ msgstr "No"
+#~ msgid "Settings saved."
+#~ msgstr "Opcions desades."
+#~ msgid "Just Now"
+#~ msgstr "Ara mateix"
+#~ msgid "1 minute ago"
+#~ msgid_plural "%d minutes ago"
+#~ msgstr[0] "Fa 1 minut"
+#~ msgstr[1] "Fa %d minuts"
+#~ msgid "1 hour ago"
+#~ msgid_plural "%d hours ago"
+#~ msgstr[0] "Fa 1 hora"
+#~ msgstr[1] "Fa %d hores"
+#~ msgid "Today at %s"
+#~ msgstr "Avui a les %s"
+#~ msgid "Yesterday at %s"
+#~ msgstr "Ahir a les %s"
+#~ msgid "Plugin Homepage"
+#~ msgstr "Pàgina web de l'extensió"
+#~ msgid "Theme Homepage"
+#~ msgstr "Pàgina web del tema"
+#~ msgid "Documentation"
+#~ msgstr "Documentació"
+#~ msgid "Support Forum"
+#~ msgstr "Forum d'Ajuda"
+#~ msgid "Author Homepage"
+#~ msgstr "Lloc web de l'autor"
+#~ msgid "Donate to project"
+#~ msgstr "Fes un donatiu"
+#~ msgid "File error. Please try again."
+#~ msgstr "Si et plau, torna a provar-ho d'aquí a uns minuts."
+#~ msgid "Local file doesn't exist."
+#~ msgstr "El fitxer local no existeix."
+#~ msgid "Local file is not readable."
+#~ msgstr "El fitxer local no es pot llegir."
+#~ msgid ""
+#~ "File upload error (the uploaded file exceeds the upload_max_filesize "
+#~ "directive in php.ini)."
+#~ msgstr ""
+#~ "Error de pujada de fitxer (El fitxer pujat excedeix de la directiva "
+#~ "upload_max_filesize de php.ini)."
+#~ msgid ""
+#~ "File upload error (the uploaded file exceeds the MAX_FILE_SIZE directive "
+#~ "that was specified in the html form)."
+#~ msgstr ""
+#~ "Error pujant el fitxer (el fitxer pujat excedeix la directiva "
+#~ "MAX_FILE_SIZE que s'ha especificat al formulari HTML)."
+#~ msgid "File upload error (the uploaded file was only partially uploaded)."
+#~ msgstr "Error pujant el fitxer (El fitxer només s'ha rebut parcialment)."
+#~ msgid "File upload error (no file was uploaded)."
+#~ msgstr "Error pujant el fitxer (No s'ha rebut cap fitxer)."
+#~ msgid "File upload error (missing a temporary folder)."
+#~ msgstr "Error pujant el fitxer (manca la carpeta temporal)."
+#~ msgid "File upload error (failed to write file to disk)."
+#~ msgstr "Error pujant el fitxer (No s'ha pogut escriure al disc)."
+#~ msgid "File upload error (file upload stopped by extension)."
+#~ msgstr "Error pujant el fitxer (El fitxer s'ha bloquejat per extensió)."
+#~ msgid "File upload error (unknown error code)."
+#~ msgstr "Error pujant el fitxer (Codi d'error desconegut)."
+#~ msgid "File upload error. Please try again."
+#~ msgstr ""
+#~ "S'ha produït un error pujant el fitxer. Torna-ho a provar d'aquí una "
+#~ "estona."
+#~ msgid "File too big."
+#~ msgstr "Fitxer massa gran."
+#~ msgid "MIME type can't be detected."
+#~ msgstr "No es pot detectar el tipus MIME."
+#~ msgid "Incorrect type of file."
+#~ msgstr "Tipus d'arxiu invàlid"
+#~ msgid "Image too wide."
+#~ msgstr "Imatge massa ample."
+#~ msgid "Image too narrow."
+#~ msgstr "Imatge massa estreta."
+#~ msgid "Image too high."
+#~ msgstr "Imatge massa alta."
+#~ msgid "Image too short."
+#~ msgstr "Imatge massa baixa."
+#~ msgid "Image ratio too high (image too wide)."
+#~ msgstr "Ratio d'imatge massa gran (Imatge massa ample)."
+#~ msgid "Image ratio too low (image too high)."
+#~ msgstr "Ratio d'imatge massa baix (Imatge massa alta)."
+#~ msgid "Image has too many pixels."
+#~ msgstr "La imatge té massa píxels."
+#~ msgid "Image has not enough pixels."
+#~ msgstr "La imatge no té prou píxels."
+#~ msgid "File not uploaded. Can't carry on a process."
+#~ msgstr "No s'ha pujat el fitxer. No s'ha pogut executar el procés."
+#~ msgid "%s already exists. Please change the file name."
+#~ msgstr "El fitxer %s ja existeix. Si en plau canvia'n el nom."
+#~ msgid "No correct temp source file. Can't carry on a process."
+#~ msgstr "El fitxer temporal no es correcte. No es pot executar el procés."
+#~ msgid "No correct uploaded source file. Can't carry on a process."
+#~ msgstr "El fitxer original no es correcte. No es pot executar el procés."
+#~ msgid "Destination directory can't be created. Can't carry on a process."
+#~ msgstr ""
+#~ "No es pot crear el directori de destí. No es pot executar el procés."
+#~ msgid "Destination directory doesn't exist. Can't carry on a process."
+#~ msgstr "El directori de destí no existeix. No es pot executar el procés."
+#~ msgid "Destination path is not a directory. Can't carry on a process."
+#~ msgstr "La ruta de destí no és un directori. No es pot executar el procés."
+#~ msgid ""
+#~ "Destination directory can't be made writeable. Can't carry on a process."
+#~ msgstr ""
+#~ "No es pot canviar a 'escriure' els drets del directori de destí. No es "
+#~ "pot executar el procés."
+#~ msgid "Destination path is not a writeable. Can't carry on a process."
+#~ msgstr ""
+#~ "No es pot escriure en el directori de destí. No es pot executar el procés."
+#~ msgid "Can't create the temporary file. Can't carry on a process."
+#~ msgstr "No es pot crear un fitxer temporal. No es pot executar el procés."
+#~ msgid "Source file is not readable. Can't carry on a process."
+#~ msgstr "El fitxer d'origen no es pot llegir. No es pot executar el procés."
+#~ msgid "No create from %s support."
+#~ msgstr "No hi ha funcions per crear des de %s."
+#~ msgid "Error in creating %s image from source."
+#~ msgstr "Error creant la imatge %s des de l'original."
+#~ msgid "Can't read image source. Not an image?."
+#~ msgstr "No es pot llegir la imatge original. És una imatge?"
+#~ msgid "GD doesn't seem to be present."
+#~ msgstr "No sembla que la llibreria GD estigui present."
+#~ msgid "No create from %s support, can't read watermark."
+#~ msgstr ""
+#~ "No hi ha funcions per crear des de %s, no es pot llegir la marca a "
+#~ "l'aigua."
+#~ msgid "No %s read support, can't create watermark."
+#~ msgstr ""
+#~ "No hi ha funcions per llegir %s, no es pot crear la marca a l'aigua."
+#~ msgid "Unknown image format, can't read watermark."
+#~ msgstr "Format d'imatge desconegut, no es pot llegir la marca a l'aigua."
+#~ msgid "No %s create support."
+#~ msgstr "No hi ha funcions per crear %s"
+#~ msgid "No conversion type defined."
+#~ msgstr "No s'ha definit cap tipus de conversió."
+#~ msgid "Error copying file on the server. copy() failed."
+#~ msgstr "Error copiant el fitxer al serivor. copy() ha fallat."
+#~ msgid "Error reading the file."
+#~ msgstr "Error llegint el fitxer."
+#~ msgid "Help donating"
+#~ msgstr "Ajuda donant"
+#~ msgid "Component %1$s by %2$s"
+#~ msgstr "Component %1$s per %2$s"
+#~ msgid "Upload error"
+#~ msgstr "Error en la càrrega"
+#~ msgid "No file received. Trying to send a file too big?"
+#~ msgstr "No s'ha rebut cap fitxer. Intentes enviar un fitxer massa gran?"
+#~ msgid "User Community"
+#~ msgstr "Comunitat d'Usuaris"
+#~ msgid "Community"
+#~ msgstr "Comunitat"
+#~ msgid "Community General Settings"
+#~ msgstr "Opcions Generals de la Comunitat"
+#~ msgid "Avatars"
+#~ msgstr "Avatars"
+#~ msgid "Updated Galleries"
+#~ msgstr "Galeries Actualitzades"
+#~ msgid "Settings Updated."
+#~ msgstr "Paràmetres Actualitzats."
+

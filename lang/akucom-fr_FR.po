@@ -1,0 +1,1124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Community\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-01 02:32+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Alkivia | http://alkivia.org <gpl@alkivia.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: alkivia.php:52
+#: community.php:494
+#: framework/plugins.php:482
+#: framework/plugins.php:524
+msgid "Warning:"
+msgstr "Attention:"
+
+#: alkivia.php:53
+#, php-format
+msgid "The active plugin %s is not compatible with your PHP version."
+msgstr "Le plugin actif %s n'est pas compatible avec votre version de PHP."
+
+#: alkivia.php:54
+#, php-format
+msgid "%s is required for this plugin."
+msgstr "%s est requis pour ce plugin."
+
+#: community.php:141
+#, php-format
+msgid "Please <a href=\"%s\">Log In</a> to see the content."
+msgstr "Merci de vous <a href=\"%s\">identifier</a> pour afficher ce contenu."
+
+#: community.php:143
+msgid "Yo have to be registered to access this page."
+msgstr "Vous devez être enregristré pour accéder à cette page."
+
+#: community.php:303
+msgid "User Community"
+msgstr "Commuauité d'utilisateurs"
+
+#: community.php:303
+msgid "Community"
+msgstr "Communauté"
+
+#: community.php:304
+#: settings.php:49
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: community.php:304
+msgid "General"
+msgstr "Général"
+
+#: community.php:317
+#: components/profiles.php:776
+#: components/gallery/gallery.php:291
+#: components/gallery/gallery.php:371
+#: components/gallery/gallery.php:383
+#: components/login/login.php:103
+msgid "What do you think you're doing?!?"
+msgstr "Que pensez-vous faire ?"
+
+#: community.php:495
+#, php-format
+msgid "Before start using the plugin %s you have to create and set the page to hold output data."
+msgstr "Avant de commencer à utiliser le plugin %s vous devez créer et configurer la page de contenu des données produites. "
+
+#: community.php:497
+#, php-format
+msgid "Set now the page holder for %s."
+msgstr "Configurez maintenant la page de contenu pour %s."
+
+#: settings.php:39
+msgid "Community General Settings"
+msgstr "Paramètres généraux de la Communauté d'Utilisateurs"
+
+#: settings.php:54
+msgid "Community Page:"
+msgstr "Page de la Communauté d'Utilisateurs :"
+
+#: settings.php:58
+msgid "Not set"
+msgstr "Non configuré"
+
+#: settings.php:61
+msgid "The page where to show all community outputs. <strong>You have to create this page first.</strong>"
+msgstr "La page dans laquelle afficher toutes les informations de la Communauté d'Utilisateurs. <strong>La création de cette page est préalable à cette sélection.</strong>"
+
+#: settings.php:69
+#: components/profiles-admin.php:51
+msgid "Privacy Options"
+msgstr "Options de caractère privé"
+
+#: settings.php:73
+msgid "Visibility:"
+msgstr "Visibilité:"
+
+#: settings.php:75
+msgid "Everyone"
+msgstr "Tout le monde"
+
+#: settings.php:76
+#: components/login/login.php:76
+#: components/login/login.php:77
+msgid "Registered users"
+msgstr "Utilisateurs enregistrés"
+
+#: settings.php:77
+msgid "Determines if the community pages are available to everyone (public access) or only to registered users."
+msgstr "Détermine si les pages de la Communauté d'Utilisateurs sont disponibles pour tout le monde (accès public) ou seulement pour les utilisateurs enregistrés."
+
+#: settings.php:85
+msgid "Activate Components"
+msgstr "Activer les composants"
+
+#: settings.php:93
+msgid "Yes"
+msgstr "Oui"
+
+#: settings.php:94
+msgid "No"
+msgstr "Non"
+
+#: settings.php:107
+#: components/profiles-admin.php:216
+#: components/gallery/admin.php:189
+#: components/gallery/user.php:172
+#: components/login/admin.php:71
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: settings.php:119
+msgid "Plugin Homepage"
+msgstr "Page du plugin"
+
+#: settings.php:120
+msgid "Support Forum"
+msgstr "Forum d'entraide"
+
+#: settings.php:121
+msgid "Author Homepage"
+msgstr "Page de l'auteur"
+
+#: settings.php:122
+msgid "Help donating"
+msgstr "Soutenir par un don"
+
+#: components/profiles-admin.php:41
+msgid "User Profiles Settings"
+msgstr "Paramètres du profil de l'utilisateur"
+
+#: components/profiles-admin.php:55
+msgid "Show addresses:"
+msgstr "Afficher les adresses"
+
+#: components/profiles-admin.php:57
+#: components/profiles.php:356
+msgid "E-mail"
+msgstr "Email"
+
+#: components/profiles-admin.php:58
+#: components/profiles.php:359
+msgid "AIM"
+msgstr "AIM"
+
+#: components/profiles-admin.php:59
+#: components/profiles.php:362
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: components/profiles-admin.php:60
+#: components/profiles.php:365
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+#: components/profiles-admin.php:64
+msgid "Show real name:"
+msgstr "Afficher le nom réel"
+
+#: components/profiles-admin.php:66
+msgid "First Name"
+msgstr "Prénom"
+
+#: components/profiles-admin.php:67
+msgid "Last Name"
+msgstr "Nom"
+
+#: components/profiles-admin.php:68
+msgid "(Last name is only shown if first name is also shown)"
+msgstr "(le nom est affiché seulement si le prénom est aussi affiché)"
+
+#: components/profiles-admin.php:72
+msgid "Show only users with this roles:"
+msgstr "Afficher uniquement les utilisateurs ayant le(s) rôle(s)"
+
+#: components/profiles-admin.php:89
+msgid "List Options"
+msgstr "Options de listes"
+
+#: components/profiles-admin.php:93
+msgid "Disable user list:"
+msgstr "Désactiver la liste des utilisateurs"
+
+#: components/profiles-admin.php:95
+msgid "Disable user listing"
+msgstr "Désactiver la liste des utilisateurs"
+
+#: components/profiles-admin.php:96
+msgid "The page will show edited content with no user list and will be used as holder for user profiles."
+msgstr "Cette page affichera le contenu édité sans liste d'utilisateur et sera utilisée comme page de contenu pour les profils d'utilisateurs."
+
+#: components/profiles-admin.php:100
+msgid "Avatar Size:"
+msgstr "Taille de l'avatar"
+
+#: components/profiles-admin.php:103
+#: components/gallery/admin.php:124
+#: components/gallery/admin.php:134
+#: components/gallery/admin.php:142
+#: components/gallery/gallery.php:793
+#: components/login/login.php:291
+#: components/login/login.php:373
+msgid "pixels"
+msgstr "pixels"
+
+#: components/profiles-admin.php:103
+msgid "This size is only used on users list."
+msgstr "Cette taille est seulement utilisée dans la liste des utilisateurs."
+
+#: components/profiles-admin.php:107
+msgid "Order users by:"
+msgstr "Ordonner les utilisateurs par"
+
+#: components/profiles-admin.php:111
+msgid "Display Name"
+msgstr "Alias"
+
+#: components/profiles-admin.php:114
+msgid "Date Registered"
+msgstr "Date d'enregistrement"
+
+#: components/profiles-admin.php:117
+msgid "User Login"
+msgstr "Identifiant (nom)"
+
+#: components/profiles-admin.php:120
+msgid "User ID"
+msgstr "Identifiant (ID)"
+
+#: components/profiles-admin.php:125
+msgid "Ascending"
+msgstr "Croissant"
+
+#: components/profiles-admin.php:128
+msgid "Descending"
+msgstr "Décroissant"
+
+#: components/profiles-admin.php:134
+msgid "Number of users per page:"
+msgstr "Nombre d'utilisateurs par page"
+
+#: components/profiles-admin.php:144
+msgid "Additional Options"
+msgstr "Options supplémentaires "
+
+#: components/profiles-admin.php:148
+msgid "Author Link"
+msgstr "Lien de l'auteur"
+
+#: components/profiles-admin.php:150
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: components/profiles-admin.php:151
+msgid "Replace current author link"
+msgstr "Remplace le lien courant de l'auteur"
+
+#: components/profiles-admin.php:152
+msgid "Create new links to profile page"
+msgstr "Créer de nouveaux liens vers la page de profil"
+
+#: components/profiles-admin.php:153
+msgid "Select <strong>replace</strong> if your site shows links to author page when disabled. Select <strong>create</strong> if there are no links to author pages when disabled."
+msgstr "Sélectionner <strong>remplacer</strong> si le site affiche des liens vers la page de l'auteur lorsque désactivé. Sélectionner <strong>créer</strong> s'il n'y a aucun lien vers les pages de l'auteur lorsque désactivé."
+
+#: components/profiles-admin.php:157
+msgid "Comments Link"
+msgstr "Lien de commentaires"
+
+#: components/profiles-admin.php:159
+msgid "Replace comments author link"
+msgstr "Remplace le lien de commentaires de l'auteur"
+
+#: components/profiles-admin.php:160
+msgid "This replaces the author comments link to the user profile page if exists"
+msgstr "Cela remplace le lien de commentaires de l'auteur vers la page de profil de l'utilisateur si elle existe"
+
+#: components/profiles-admin.php:164
+msgid "Show on profile"
+msgstr "Afficher dans le profil"
+
+#: components/profiles-admin.php:166
+msgid "Link to author posts page"
+msgstr "Lien vers la page des articles de l'auteur"
+
+#: components/profiles-admin.php:166
+msgid "(Almost all themes support this)"
+msgstr "(la plupart des thèmes le supportent)"
+
+#: components/profiles-admin.php:167
+msgid "Last user posts"
+msgstr "Derniers articles de l'utilisateur"
+
+#: components/profiles-admin.php:168
+msgid "Last user comments"
+msgstr "Derniers commentaires de l'utilisateur"
+
+#: components/profiles-admin.php:176
+msgid "Custom labels"
+msgstr "Labels personnalisés"
+
+#: components/profiles-admin.php:180
+msgid "AIM custom label:"
+msgstr "Label pour AIM:"
+
+#: components/profiles-admin.php:186
+msgid "YIM custom label:"
+msgstr "Label pour YIM:"
+
+#: components/profiles-admin.php:192
+msgid "Jabber custom label:"
+msgstr "Label pour Jabber:"
+
+#: components/profiles-admin.php:199
+msgid "This will change the default labels for your IM addresses in Alkivia and WordPress user profile."
+msgstr "Ceci changera les labels par défaut pour vos adresses de messagerie instantanée dans Alkivia et dans le profil d'utilisateur de Wordpress."
+
+#: components/profiles-admin.php:204
+#, php-format
+msgid "To be changed in the WordPress user profile, this feature requires WordPress 2.8 or higher. To see what to hack to make it run in your version, <a href=\"%s\" target=\"_blank\">read this post</a>."
+msgstr "Pour que cette modification soit prise en compte dans le profil d'utilisateur de Wordpress, cette fonction requiert Wordpress 2.8 ou ultérieur. Pour savoir que faire pour l'implémenter dans votre version, lire <a href=\"%s\" target=\"_blank\">cet article</a>."
+
+#: components/profiles.php:190
+msgid "User Profiles"
+msgstr "Profils d'utilisateur"
+
+#: components/profiles.php:210
+#: components/gallery/gallery.php:221
+msgid "User with this name not found."
+msgstr "Aucun utilisateur trouvé pour ce nom"
+
+#: components/profiles.php:235
+msgid "No users found in this page."
+msgstr "Aucun utilisateur trouvé dans cette page."
+
+#: components/profiles.php:247
+msgid "Nickname"
+msgstr "Alias"
+
+#: components/profiles.php:248
+msgid "Role"
+msgstr "Rôle"
+
+#: components/profiles.php:249
+#: components/profiles.php:353
+msgid "Website"
+msgstr "Site internet"
+
+#: components/profiles.php:250
+#: components/profiles.php:339
+msgid "Member Since"
+msgstr "Membre depuis"
+
+#: components/profiles.php:306
+msgid "Edit your profile"
+msgstr "Editer votre profil"
+
+#: components/profiles.php:308
+msgid "Edit this user"
+msgstr "Editer cet utilisateur"
+
+#: components/profiles.php:316
+msgid "View this author's posts"
+msgstr "Voir les articles de cet auteur"
+
+#: components/profiles.php:319
+msgid "General Info"
+msgstr "Informations générales"
+
+#: components/profiles.php:326
+msgid "Real Name:"
+msgstr "Nom réel :"
+
+#: components/profiles.php:335
+msgid "Member Role"
+msgstr "Rôle du membre"
+
+#: components/profiles.php:343
+msgid "About me"
+msgstr "Eléments biographiques"
+
+#: components/profiles.php:369
+msgid "Where to contact"
+msgstr "Où me contacter"
+
+#: components/profiles.php:661
+msgid "Recent user posts:"
+msgstr "Articles récents de l'utilisateur :"
+
+#: components/profiles.php:689
+msgid "Latest coments on:"
+msgstr "Derniers commentaires sur:"
+
+#: components/profiles.php:764
+msgid "<strong>ERROR</strong>: This nickname is already in use, please choose another one."
+msgstr "<strong>ERREUR</strong>: cet alias est déjà utilisé, merci d'en choisir un autre. "
+
+#: components/profiles.php:803
+#: components/login/login.php:149
+msgid "Bad form received."
+msgstr "Formulaire incorrect."
+
+#: components/gallery/admin.php:38
+msgid "Photo Gallery Settings"
+msgstr "Paramètres de la galerie d'images"
+
+#: components/gallery/admin.php:48
+msgid "Avatars"
+msgstr "Avatars"
+
+#: components/gallery/admin.php:52
+msgid "Galley Avatars:"
+msgstr "Avatars de la galerie :"
+
+#: components/gallery/admin.php:54
+msgid "Replace Gravatars by user gallery avatars."
+msgstr "Remplacer les Gravatars par les avatars de la galerie de l'utilisateur."
+
+#: components/gallery/admin.php:55
+msgid "If not local avatar, look for it at Gravatar."
+msgstr "S'il n'existe aucun avatar local, chercher un Gravatar."
+
+#: components/gallery/admin.php:56
+msgid "Avatars are shown or hidden depenmding on Discussion Settings for WordPress."
+msgstr "Les avatars s'affichent ou se masquent selon les Préférences de discussion de Wordpress."
+
+#: components/gallery/admin.php:60
+msgid "Anonymous avatar URL:"
+msgstr "URL d'avatar anonyme :"
+
+#: components/gallery/admin.php:63
+msgid "A valid avatar URL. Must be a full URL to an small image. Leaving it empty will reset to a default anonymous avatar."
+msgstr "URL valide pour avatar. Doit être une URL complète vers une petite image. Laisser vide conduira à restaurer l'avatar anonyme."
+
+#: components/gallery/admin.php:71
+msgid "Privacy"
+msgstr "Privé"
+
+#: components/gallery/admin.php:75
+msgid "Hide Pictures:"
+msgstr "Masquer les images :"
+
+#: components/gallery/admin.php:78
+msgid "User has to load at least one image to see other users pictures."
+msgstr "L'utilisateur doit enregistrer au moins une image pour voir celles des autres utilisateurs."
+
+#: components/gallery/admin.php:86
+msgid "User Limits"
+msgstr "Limites de l'utilisateur"
+
+#: components/gallery/admin.php:90
+msgid "Max. Upload images:"
+msgstr "Nombre maximal d'images"
+
+#: components/gallery/admin.php:93
+msgid "Maximum number of images an user can upload."
+msgstr "Nombre maximal d'images qu'un utilisateur peut enregistrer."
+
+#: components/gallery/admin.php:97
+msgid "Max. Image size:"
+msgstr "Taille moyenne d'une image"
+
+#: components/gallery/admin.php:100
+#, php-format
+msgid "Maximum size for each image file an user can upload in Kb. System max is: %s"
+msgstr "Taille moyenne (en Kb) pour chaque image qu'un utilisateur peut enregistrer. Le maximum système est: %s"
+
+#: components/gallery/admin.php:104
+msgid "Max. Image megapixels:"
+msgstr "Taille moyenne en mégapixels"
+
+#: components/gallery/admin.php:106
+msgid "Megapixels"
+msgstr "Mégapixels"
+
+#: components/gallery/admin.php:107
+msgid "Maximum megapixels an image can have to be processed.<br />More megapixels, more memory needed (about 9 Mb processing memory per megapixel)"
+msgstr "Maximum de mégapixels pour qu'une image puisse être enregistrée. <br /> Davantage de mégapixels requièrent davantage de mémoire (autour de 9Mb de mémoire processeur par mégapixel)."
+
+#: components/gallery/admin.php:115
+msgid "Image Sizes"
+msgstr "Tailles d'image"
+
+#: components/gallery/admin.php:119
+msgid "Profile Image size:"
+msgstr "Taille de l'image du profil"
+
+#: components/gallery/admin.php:121
+msgid "Use WordPress large size"
+msgstr "Utiliser la grande taille de Wordpress"
+
+#: components/gallery/admin.php:122
+#: components/gallery/admin.php:132
+msgid "Use this settings"
+msgstr "Utiliser les paramètres suivants"
+
+#: components/gallery/admin.php:123
+#: components/gallery/admin.php:133
+msgid "Width"
+msgstr "<br />Largeur"
+
+#: components/gallery/admin.php:124
+#: components/gallery/admin.php:134
+msgid "Height"
+msgstr "Hauteur"
+
+#: components/gallery/admin.php:125
+msgid "Images are always resized to this settings and this is the size that shows in the user profile page."
+msgstr "Les images sont toujours redimensionnées à ces valeurs et cette taille est celle affichée dans la page de profil de l'utilisateur."
+
+#: components/gallery/admin.php:129
+msgid "Thumbnails size:"
+msgstr "Taille des miniatures"
+
+#: components/gallery/admin.php:131
+msgid "Use WordPress thumbnail size"
+msgstr "Utiliser la taille des miniatures de Wordpress"
+
+#: components/gallery/admin.php:135
+msgid "Crop at exact size"
+msgstr "Découper à la taille exacte"
+
+#: components/gallery/admin.php:136
+msgid "This is the size for the user gallery thumbnails."
+msgstr "Ceci est la taille des vignettes de la galerie de l'utilisateur."
+
+#: components/gallery/admin.php:140
+msgid "Avatar max size:"
+msgstr "Taille maximale de l'avatar"
+
+#: components/gallery/admin.php:143
+msgid "It is recommended not to set this too big, site performance will be affected."
+msgstr "Il est recommandé de ne pas choisir une valeur trop importante, sans quoi les performances du site pourraient en pâtir."
+
+#: components/gallery/admin.php:151
+msgid "Watermarks"
+msgstr "Filigrane"
+
+#: components/gallery/admin.php:155
+msgid "Images Watermark:"
+msgstr "Filigrane des images"
+
+#: components/gallery/admin.php:162
+msgid "Watermark large pictures"
+msgstr "Marquer les grandes images"
+
+#: components/gallery/admin.php:167
+msgid "with this image"
+msgstr "avec cette image"
+
+#: components/gallery/admin.php:177
+msgid "Upload new watermark:"
+msgstr "Charger un nouveau filigrane "
+
+#: components/gallery/admin.php:180
+msgid "The uploaded image will be proportionally resized to 1/3 of profile images width."
+msgstr "L'image chargée sera proportionnellement redimensionnée au 1/3 de la largeur des images du profil."
+
+#: components/gallery/admin.php:199
+#, php-format
+msgid "Component %1$s by %2$s"
+msgstr "Composant %1$s sur %2$s"
+
+#: components/gallery/gallery.php:185
+msgid "Shows the latest updated user galleries."
+msgstr "Affiche les dernières galeries utilisateur mises à jour"
+
+#: components/gallery/gallery.php:186
+#: components/gallery/gallery.php:189
+msgid "Gallery Updates"
+msgstr "Mises à jour des galeries"
+
+#: components/gallery/gallery.php:200
+msgid "Photo Gallery"
+msgstr "Galerie d'images"
+
+#: components/gallery/gallery.php:202
+msgid "Your Gallery"
+msgstr "Votre galerie"
+
+#: components/gallery/gallery.php:257
+#, php-format
+msgid "%s's Photo Gallery"
+msgstr "Galerie d'images de %s"
+
+#: components/gallery/gallery.php:260
+msgid "Manage your photo gallery"
+msgstr "Administrer votre galerie d'images"
+
+#: components/gallery/gallery.php:262
+msgid "Manage this user gallery"
+msgstr "Administrer la galerie de cet utilisateur"
+
+#: components/gallery/gallery.php:353
+#: components/login/login.php:143
+msgid "Error"
+msgstr "Erreur"
+
+#: components/gallery/gallery.php:380
+msgid "Managing Gallery for"
+msgstr "Administrer la galerie pour"
+
+#: components/gallery/gallery.php:391
+msgid "Manage your Photo Gallery"
+msgstr "Administrer votre galerie d'images"
+
+#: components/gallery/gallery.php:392
+msgid "Your"
+msgstr "Votre"
+
+#: components/gallery/gallery.php:438
+msgid "Your uploaded image has been approved"
+msgstr "Votre image enregistrée a été validée"
+
+#: components/gallery/gallery.php:440
+#, php-format
+msgid "The recently uploaded image to %s has been approved. From now, you image is online and available to site visitors."
+msgstr "L'image récemment enregistrée pour %s a été validée. Désormais, votre image est en ligne et visible par les visiteurs du site."
+
+#: components/gallery/gallery.php:441
+msgid "Thanks for uploading your picture for sharing!"
+msgstr "Merci d'avoir chargé cette image pour la partager !"
+
+#: components/gallery/gallery.php:450
+msgid "Your uploaded image has been rejected"
+msgstr "Votre image chargée n'a pas été validée"
+
+#: components/gallery/gallery.php:452
+#, php-format
+msgid "The recently uploaded image to %s has been rejected. Probably this is because the image does not follow the site rules."
+msgstr "L'image récemment chargée pour %s n'a pas été validée. La cause la plus probable est que cette image ne respecte pas les règles du site. "
+
+#: components/gallery/gallery.php:453
+msgid "Please, try to upload a different new picture."
+msgstr "Merci d'essayer de charger une image différente."
+
+#: components/gallery/gallery.php:533
+#: components/login/login.php:141
+msgid "File uploaded."
+msgstr "Fichier enregistré."
+
+#: components/gallery/gallery.php:538
+msgid "Thumbnail created."
+msgstr "Miniature créée."
+
+#: components/gallery/gallery.php:541
+msgid "Thumbnail error"
+msgstr "Erreur de miniature"
+
+#: components/gallery/gallery.php:546
+msgid "Avatar created."
+msgstr "Avatar créé."
+
+#: components/gallery/gallery.php:549
+msgid "Avatar error"
+msgstr "Erreur d'avatar"
+
+#: components/gallery/gallery.php:573
+msgid "Please moderate user gallery"
+msgstr "Merci d'administrer la galerie"
+
+#: components/gallery/gallery.php:575
+#, php-format
+msgid "A new image has been uploaded to the gallery for %s"
+msgstr "Une nouvelle image a été enregistrée dans la galerie pour %s"
+
+#: components/gallery/gallery.php:576
+msgid "Please, moderate it at"
+msgstr "Merci d'administrer la galerie à "
+
+#: components/gallery/gallery.php:582
+msgid "Upload error"
+msgstr "Erreur de chargement"
+
+#: components/gallery/gallery.php:586
+msgid "No file received. Trying to send a file too big?"
+msgstr "Aucun fichier reçu. Le fichier est peut-être trop lourd ?"
+
+#: components/gallery/gallery.php:629
+msgid "Edit Photo Gallery"
+msgstr "Editer la galerie d'images"
+
+#: components/gallery/gallery.php:674
+#, php-format
+msgid "View all user pictures [%d]"
+msgstr "Voir toutes les images de l'utilisateur [%d]"
+
+#: components/gallery/gallery.php:696
+#, php-format
+msgid "To see pictures from other users, you have to load at least one picture to <a href=\"%s\">your gallery</a>."
+msgstr "Pour voir les images des autres utilisateurs, il convient d'enregistrer d'abord au moins une image dans <a href=\"%s\">votre galerie</a>."
+
+#: components/gallery/gallery.php:791
+#: components/login/login.php:289
+#: components/login/login.php:371
+msgid "Title:"
+msgstr "Titre :"
+
+#: components/gallery/gallery.php:792
+#: components/login/login.php:290
+#: components/login/login.php:372
+msgid "Show Avatars"
+msgstr "Montrer les avatars"
+
+#: components/gallery/gallery.php:793
+#: components/login/login.php:291
+#: components/login/login.php:373
+msgid "Avatar size:"
+msgstr "Taille de l'avatar :"
+
+#: components/gallery/gallery.php:794
+#: components/login/login.php:292
+#: components/login/login.php:374
+msgid "Number of users:"
+msgstr "Nombre d'utilisateurs :"
+
+#: components/gallery/gallery.php:795
+#: components/login/login.php:293
+#: components/login/login.php:375
+#, php-format
+msgid "(At most %d)"
+msgstr "(Maximum %d)"
+
+#: components/gallery/gallery.php:966
+msgid "Local Anonymous <em>(Defined in Community Gallery settings)</em>"
+msgstr "Anonyme local <em>(défini dans les paramètres de galerie de la Communauté d'Utilisateurs)</em>"
+
+#: components/gallery/user.php:57
+msgid "Upload a new picture"
+msgstr "Charger une nouvelle image"
+
+#: components/gallery/user.php:62
+#: components/login/admin.php:59
+msgid "Upload new image:"
+msgstr "Charger une nouvelle image"
+
+#: components/gallery/user.php:70
+msgid "Upload Image"
+msgstr "Charger l'image"
+
+#: components/gallery/user.php:77
+#, php-format
+msgid "Maximum accepted sizes are %1$s and %2$s megapixels."
+msgstr "Les tailles maximales acceptées sont de %1$s et %2$s mégapixels."
+
+#: components/gallery/user.php:79
+#: components/gallery/user.php:86
+#, php-format
+msgid "The upload limit is set to %d images."
+msgstr "La limite de chargement est fixée à %d images."
+
+#: components/gallery/user.php:85
+msgid "You already have uploaded the maximum allowed images."
+msgstr "Vous avez déjà enregistré le maximum d'images autorisées."
+
+#: components/gallery/user.php:100
+msgid "Uploaded Images"
+msgstr "Images enregistrées"
+
+#: components/gallery/user.php:105
+#: components/gallery/user.php:156
+msgid "ID"
+msgstr "ID"
+
+#: components/gallery/user.php:106
+#: components/gallery/user.php:157
+msgid "Name"
+msgstr "Nom"
+
+#: components/gallery/user.php:107
+#: components/gallery/user.php:158
+msgid "Avatar"
+msgstr "Avatar"
+
+#: components/gallery/user.php:108
+#: components/gallery/user.php:159
+msgid "Caption"
+msgstr "Légende"
+
+#: components/gallery/user.php:109
+#: components/gallery/user.php:160
+msgid "Main Picture"
+msgstr "Image principale"
+
+#: components/gallery/user.php:110
+#: components/gallery/user.php:161
+msgid "Is Avatar"
+msgstr "Est un avatar"
+
+#: components/gallery/user.php:111
+#: components/gallery/user.php:162
+msgid "Moderation"
+msgstr "Modération"
+
+#: components/gallery/user.php:112
+#: components/gallery/user.php:163
+msgid "Delete"
+msgstr "Supprimer"
+
+#: components/gallery/user.php:124
+#: components/gallery/user.php:142
+msgid "Pending"
+msgstr "En cours"
+
+#: components/gallery/user.php:126
+#: components/gallery/user.php:143
+msgid "Approved"
+msgstr "Validé"
+
+#: components/gallery/user.php:128
+#: components/gallery/user.php:144
+msgid "Rejected"
+msgstr "Rejeté"
+
+#: components/gallery/user.php:132
+#, php-format
+msgid "Image Preview %d"
+msgstr "Prévisualisation de l'image %d"
+
+#: components/gallery/user.php:132
+msgid "View Larger"
+msgstr "<br />Voir plus grand"
+
+#: components/login/admin.php:38
+msgid "Login Form Settings"
+msgstr "Paramètres d'identification"
+
+#: components/login/admin.php:48
+msgid "Login form image"
+msgstr "Image du formulaire d'identification"
+
+#: components/login/admin.php:52
+msgid "Current login image:"
+msgstr "Image d'identification actuelle"
+
+#: components/login/admin.php:62
+msgid "Recommended size: 326x67 pixels. The uploaded image will be proportionally resized to 326 pixels wide."
+msgstr "Taille recommandée : 326x67 px. L'image enregistrée sera proportionnellement redimensionnée à 326 px de large."
+
+#: components/login/login.php:75
+msgid "List of latest registered users."
+msgstr "Derniers utilisateurs enregistrés."
+
+#: components/login/login.php:80
+msgid "Latest users that accessed the site."
+msgstr "Derniers utilisateurs ayany visité le site."
+
+#: components/login/login.php:81
+#: components/login/login.php:82
+msgid "Logged in users"
+msgstr "Utilisateurs loggés"
+
+#: components/login/login.php:92
+msgid "Login Form"
+msgstr "Identification"
+
+#: components/login/login.php:146
+msgid "No file received."
+msgstr "Aucun fichier reçu."
+
+#: framework/formating.php:38
+msgid "Settings saved."
+msgstr "Paramètres enregistrés."
+
+#: framework/plugins.php:483
+#, php-format
+msgid "The active plugin %s is not compatible with your WordPress version."
+msgstr "Le plugin %s n'est pas compatible avec votre version de Wordpress."
+
+#: framework/plugins.php:485
+#, php-format
+msgid "WordPress %s is required to run this plugin."
+msgstr "Wordpress %s est requis pour installer ce plugin."
+
+#: framework/plugins.php:525
+msgid "Standard sidebar functions are not present."
+msgstr "Les fonctions standard de sidebar sont absentes."
+
+#: framework/plugins.php:526
+#, php-format
+msgid "It is required to use the standard sidebar to run %s"
+msgstr "L'utilisation de la sidebar standard est requise pour exécuter %s"
+
+#: framework/upload.php:2086
+msgid "File error. Please try again."
+msgstr "Erreur de fichier, merci de réessayer."
+
+#: framework/upload.php:2087
+msgid "Local file doesn't exist."
+msgstr "Le fichier local n'existe pas."
+
+#: framework/upload.php:2088
+msgid "Local file is not readable."
+msgstr "Le fichier local ne peut être lu."
+
+#: framework/upload.php:2089
+msgid "File upload error (the uploaded file exceeds the upload_max_filesize directive in php.ini)."
+msgstr "Erreur de chargement (la taille du fichier excède la directive upload_max_filesize de php.ini)."
+
+#: framework/upload.php:2090
+msgid "File upload error (the uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the html form)."
+msgstr "Erreur de chargement (la taille du fichier excède la directive MAX_FILE_SIZE spécifiée dans le formulaire)."
+
+#: framework/upload.php:2091
+msgid "File upload error (the uploaded file was only partially uploaded)."
+msgstr "Erreur de chargement (chargement de ficher incomplet)."
+
+#: framework/upload.php:2092
+msgid "File upload error (no file was uploaded)."
+msgstr "Erreur de chargement  (aucun fichier chargé)."
+
+#: framework/upload.php:2093
+msgid "File upload error (unknown error code)."
+msgstr "Erreur de chargement (code d'erreur inconnu)."
+
+#: framework/upload.php:2094
+msgid "File upload error. Please try again."
+msgstr "Erreur de chargement, merci de réessayer."
+
+#: framework/upload.php:2095
+msgid "File too big."
+msgstr "Fichier trop lourd."
+
+#: framework/upload.php:2096
+msgid "MIME type can't be detected."
+msgstr "Le type MIME ne peut être détecté."
+
+#: framework/upload.php:2097
+msgid "Incorrect type of file."
+msgstr "Type de fichier incorrect."
+
+#: framework/upload.php:2098
+msgid "Image too wide."
+msgstr "Image trop large."
+
+#: framework/upload.php:2099
+msgid "Image too narrow."
+msgstr "Image trop étroite."
+
+#: framework/upload.php:2100
+msgid "Image too high."
+msgstr "Image trop haute."
+
+#: framework/upload.php:2101
+msgid "Image too short."
+msgstr "Image trop petite."
+
+#: framework/upload.php:2102
+msgid "Image ratio too high (image too wide)."
+msgstr "Image de ratio trop haut (image trop large)."
+
+#: framework/upload.php:2103
+msgid "Image ratio too low (image too high)."
+msgstr "Image de ratio trop bas (image trop haute)."
+
+#: framework/upload.php:2104
+msgid "Image has too many pixels."
+msgstr "La image a trop de pixels."
+
+#: framework/upload.php:2105
+msgid "Image has not enough pixels."
+msgstr "L'image n'a pas assez de pixels."
+
+#: framework/upload.php:2106
+msgid "File not uploaded. Can't carry on a process."
+msgstr "Fichier non enregistré. Processus avorté."
+
+#: framework/upload.php:2107
+#, php-format
+msgid "%s already exists. Please change the file name."
+msgstr "%s existe déjà, merci de changer le nom du fichier."
+
+#: framework/upload.php:2108
+msgid "No correct temp source file. Can't carry on a process."
+msgstr "Fichier temporaire incorrect. Processus avorté."
+
+#: framework/upload.php:2109
+msgid "No correct uploaded source file. Can't carry on a process."
+msgstr "Fichier original incorrect. Processus avorté."
+
+#: framework/upload.php:2110
+msgid "Destination directory can't be created. Can't carry on a process."
+msgstr "Le dossier de destination ne peut être créé. Processus avorté."
+
+#: framework/upload.php:2111
+msgid "Destination directory doesn't exist. Can't carry on a process."
+msgstr "Le dossier de destination n'existe pas. Processus avorté."
+
+#: framework/upload.php:2112
+msgid "Destination path is not a directory. Can't carry on a process."
+msgstr "La cible de destination n'est pas un dossier. Processus avorté."
+
+#: framework/upload.php:2113
+msgid "Destination directory can't be made writeable. Can't carry on a process."
+msgstr "Les droits du dossier de destination ne peuvent être passés en écriture. Processus avorté."
+
+#: framework/upload.php:2114
+msgid "Destination path is not a writeable. Can't carry on a process."
+msgstr "Le dossier de destination n'est pas accessible en écriture. Processus avorté."
+
+#: framework/upload.php:2115
+msgid "Can't create the temporary file. Can't carry on a process."
+msgstr "Impossible de créer le fichier temporaire. Processus avorté."
+
+#: framework/upload.php:2116
+msgid "Source file is not readable. Can't carry on a process."
+msgstr "Le fichier original n'est pas lisible. Processus avorté."
+
+#: framework/upload.php:2117
+#, php-format
+msgid "No create from %s support."
+msgstr "Aucune création depuis %s."
+
+#: framework/upload.php:2118
+#, php-format
+msgid "Error in creating %s image from source."
+msgstr "Erreur de création de l'image %s depuis la source."
+
+#: framework/upload.php:2119
+msgid "Can't read image source. Not an image?."
+msgstr "Source de l'image illisible. Le fichier est-il une image ?"
+
+#: framework/upload.php:2120
+msgid "GD doesn't seem to be present."
+msgstr "La librairie GD semble absente."
+
+#: framework/upload.php:2121
+#, php-format
+msgid "No create from %s support, can't read watermark."
+msgstr "Aucun création depuis %s, filigrane illisible."
+
+#: framework/upload.php:2122
+#, php-format
+msgid "No %s read support, can't create watermark."
+msgstr "Impossible de lire %s, création du filigrane avortée."
+
+#: framework/upload.php:2123
+msgid "Unknown image format, can't read watermark."
+msgstr "Format d'image inconnu, lecture du filigrane impossible."
+
+#: framework/upload.php:2124
+#, php-format
+msgid "No %s create support."
+msgstr "Création de %s impossible."
+
+#: framework/upload.php:2125
+msgid "No conversion type defined."
+msgstr "Aucune conversion de type définie."
+
+#: framework/upload.php:2126
+msgid "Error copying file on the server. copy() failed."
+msgstr "Erreur de copie du fichier sur le serveur : copy() a échoué."
+
+#: framework/upload.php:2127
+msgid "Error reading the file."
+msgstr "Erreur de lecture du fichier."
+
+#: lang/additional-strings.php:4
+msgid "Manages public profiles pages."
+msgstr "Administre les pages des profils publics."
+
+#: lang/additional-strings.php:9
+msgid "Manages user photo galleries for User Community."
+msgstr "<br />Administre les galeries d'images de la Communauté d'Utilisateurs."
+
+#: lang/additional-strings.php:12
+msgid "Custom Login Form"
+msgstr "Identification personnalisée"
+
+#: lang/additional-strings.php:13
+msgid "Configures custom styles, links and logo in the login form."
+msgstr "<br />Configure les styles personnalisés, les liens et le logo du formulaire d'identification."
+
+#~ msgid "Updated Galleries"
+#~ msgstr "Galerias Actualizadas"
+#~ msgid "Settings Updated."
+#~ msgstr "Opciones guardadas."
+#~ msgid "Using community version:"
+#~ msgstr "Utilizando la versión:"
+#~ msgid "Use default settings"
+#~ msgstr "Utilizar valores por defecto"
+#~ msgid "Sizes in pixels."
+#~ msgstr "Medidas en pixels."
+#~ msgid "User profiles:"
+#~ msgstr "Perfiles de Usuario:"
+#~ msgid "Profiles Page ID:"
+#~ msgstr "ID de la pagina de perfiles:"
+#~ msgid "Under Development"
+#~ msgstr "En Desarrollo"
+#~ msgid "USER NOT FOUND"
+#~ msgstr "NO SE ENCONTRÓ EL USUARIO"
+#~ msgid "Member Since:"
+#~ msgstr "Usuario desde:"
+#~ msgid "Since"
+#~ msgstr "Miembro Desde"
+#~ msgid "User Name"
+#~ msgstr "Identificador de usuario"
+
